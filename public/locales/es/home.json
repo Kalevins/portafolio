@@ -1,0 +1,54 @@
+{
+  "traductions": [
+    {
+      "name": "Presentacion",
+      "title": [
+        "¡Hola Mundo!",
+        "Soy Kevin Muñoz Rengifo"
+      ],
+      "description": [
+        "Ingeniero en electrónica y telecomunicaciones de la Universidad del Cauca. Con experiencia en redes, desarrollo web y proyectos telemáticos. Responsable, honesto y con competencias para el trabajo en equipo.",
+        "Capaz de emprender labores asignadas donde se requiera responsabilidad, honestidad, compromiso y sentido de pertenencia, fácilmente adaptable al entorno social y dispuesto a asumir retos en el ámbito laboral."
+      ]
+    },
+    {
+      "name": "Trabajos",
+      "title": [
+        "Trabajos"
+      ],
+      "description": [
+        "A lo largo de mi carrera he tenido la oportunidad de realizar diferentes proyectos enfocados al desarrollo web frontend y backend, ademas de inteligencia artificial."
+      ],
+      "button": "Conócelos"
+    },
+    {
+      "name": "Habilidades",
+      "title": [
+        "Habilidades"
+      ],
+      "description": [
+        "Mi pasión por aprender cosas nuevas me ha llevado a adquirir competencias en diferentes ámbitos, enfocados principalmente en el desarrollo web y la inteligencia artificial."
+      ],
+      "button": "Conócelas"
+    },
+    {
+      "name": "Educación",
+      "title": [
+        "Educación"
+      ],
+      "description": [
+        "En mi desarrollo como ingeniero en electrónica y telecomunicaciones, he aprendido a trabajar en equipo, a ser responsable, honesto y con competencias en la resolución de problemas, lo que me ha llevado a desarrollarme en otras plataformas para complementar mis conocimientos."
+      ],
+      "button": "Ver todos"
+    },
+    {
+      "name": "Contacto",
+      "title": [
+        "Contacto"
+      ],
+      "description": [
+        "Puedes escribirme a mi correo, o por mis redes:"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "traductions": [
+    {
+      "name": "1",
+      "title": [
+        "Teleperformance",
+        "Front End Developer",
+        "Oct 2021 - Present"
+      ],
+      "description": [
+        "AAAAAAAAAAAAAAAAAA"
+      ]
+    },
+    {
+      "name": "2",
+      "title": [
+        "Freelance - Web Page",
+        "Full Stack Developer",
+        "Jul 2021 - Sep 2021"
+      ],
+      "description": [
+        "AAAAAAAAAAAAAAAAAA"
+      ],
+      "button": "Visitar"
+    }
+  ]
+}

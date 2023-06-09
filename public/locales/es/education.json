@@ -1,0 +1,74 @@
+{
+  "traductions": [
+    {
+      "name": "Formal",
+      "title": [
+        "Formal"
+      ],
+      "description": [
+        "Universidad del Cauca - Ingeniería en Electrónica y Telecomunicaciones",
+        "Scrum Fundamentals Certified (SFC) SCRUMstudy - Accreditation Body for Scrum and Agile",
+        "SENA - Empalme y conectorización de fibra óptica Servicio Nacional de Aprendizaje",
+        "SENA - Habilidades para la vida Servicio Nacional de Aprendizaje"
+      ]
+    },
+    {
+      "name": "edX",
+      "title": [
+        "edX"
+      ],
+      "description": [
+        "HarvardX - CS50's Introduction to Artificial Intelligence with Python",
+        "MITx - Machine Learning with Python-From Linear Models to Deep Learning"
+      ]
+    },
+    {
+      "name": "Platzi",
+      "title": [
+        "Platzi"
+      ],
+      "description": [
+        "Curso Básico de Algoritmos y Pensamiento Lógico 2020",
+        "Curso Básico de JavaScript",
+        "Curso de Computación Básica 2019",
+        "Curso de Creación de Portafolio y CV",
+        "Curso de ECMAScript 6+",
+        "Curso de Flujo de Desarrollo Moderno CodeStream",
+        "Curso de Inglés Básico A1 para Principiantes (2020)",
+        "Curso de Introducción a la Terminal y Línea de Comandos",
+        "Curso de Prework: Configuración de Entorno de Desarrollo en macOS",
+        "Curso de Prework: Configuración de Entorno de Desarrollo en Windows",
+        "Curso Gratis de Programación Básica",
+        "Curso Profesional de Git y GitHub"
+      ]
+    },
+    {
+      "name": "Udemy",
+      "title": [
+        "Udemy"
+      ],
+      "description": [
+        "Google Spreadsheets: Empieza desde cero"
+      ]
+    },
+    {
+      "name": "freeCodeCamp",
+      "title": [
+        "freeCodeCamp"
+      ],
+      "description": [
+        "Responsive Web Design"
+      ]
+    },
+    {
+      "name": "Cisco",
+      "title": [
+        "Cisco"
+      ],
+      "description": [
+        "Introduction to Packet Tracer Cisco Networking Academy",
+        "Networking Essentials Cisco Networking Academy"
+      ]
+    }
+  ]
+}
