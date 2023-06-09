@@ -4,6 +4,8 @@
   left: 0;
   width: 100vw;
   height: 100vh;
+  filter: grayscale(80%);
+  object-fit: cover;
 }
 
 .container {
@@ -14,8 +16,10 @@
   width: calc(100vw - 6rem);
   height: calc(100vh - 6rem);
 
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 1024px) {
     border-radius: 0;
+    width: 100vw;
+    height: 100vh;
   }
 
   .change {
@@ -23,7 +27,7 @@
     width: 100%;
     height: auto;
     z-index: 100000;
-    padding: 30px;
+    padding: 40px;
     box-sizing: border-box;
     top: 0;
     left: 0;
@@ -58,6 +62,7 @@
       width: 30px;
       height: 30px;
       cursor: pointer;
+      filter: brightness(0) invert(1);
     }
   }
 
@@ -65,10 +70,6 @@
     display: flex;
     height: 100%;
     transition: all 0.6s ease-in;
-
-    @media only screen and (max-width: 1000px) {
-      height: 100vh;
-    }
   }
 
   .prev,
@@ -85,7 +86,7 @@
     opacity: 0.2;
     transition: all 0.3s ease;
 
-    @media only screen and (max-width: 650px) {
+    @media only screen and (max-width: 425px) {
       display: none;
     }
 

@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className={styles.trail} id={slides[activeSlide]?.light?styles.light:null} style={{gridTemplateColumns: `repeat(${slides.length}, 1fr)`}}>
       {slides.map(({texts}, index) => (
-        <div key={index} onClick={() => changeActiveSlide(index)} id={activeSlide==index?styles.active:styles.inactive}>{texts.name}</div>
+        <div key={index} onClick={() => changeActiveSlide(index)} id={activeSlide==index?styles.active:styles.inactive}><span>{texts.name}</span></div>
       ))}
     </div>
   )

@@ -14,9 +14,11 @@ import {
   FaFigma,
   FaGoogle,
   FaMicrosoft,
+  FaAngular,
 } from "react-icons/fa";
 import {
   SiJavascript,
+  SiTypescript,
   SiNextdotjs,
   SiExpress,
   SiMongodb,
@@ -25,6 +27,8 @@ import {
   SiTensorflow,
   SiAdobephotoshop,
   SiAdobeillustrator,
+  SiTailwindcss,
+  SiMaterialdesign,
   SiCanva,
   SiMatrix,
   SiLatex,
@@ -68,10 +72,15 @@ const Skills = () => {
               link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
             },
             {
+              text: "TypeScript",
+              icon: <SiTypescript/>,
+              link: "https://www.typescriptlang.org/",
+            },
+            /* {
               text: "PHP",
               icon: <FaPhp/>,
               link: "https://www.php.net/",
-            },
+            }, */
             {
               text: "Sass",
               icon: <FaSass/>,
@@ -81,6 +90,11 @@ const Skills = () => {
               text: "NodeJS",
               icon: <FaNodeJs/>,
               link: "https://nodejs.org/en/",
+            },
+            {
+              text: "Angular",
+              icon: <FaAngular/>,
+              link: "https://angular.io/",
             },
             {
               text: "React",
@@ -97,25 +111,35 @@ const Skills = () => {
               icon: <SiExpress/>,
               link: "http://expressjs.com/",
             },
-            {
+            /* {
               text: "MongoDB",
               icon: <SiMongodb/>,
               link: "https://www.mongodb.com/",
-            },
+            }, */
             {
               text: "MySQL",
               icon: <SiMysql/>,
               link: "https://www.mysql.com/",
             },
-            {
+            /* {
               text: "Laravel",
               icon: <FaLaravel/>,
               link: "https://laravel.com/",
-            },
+            }, */
             {
               text: "Bootstrap",
               icon: <FaBootstrap/>,
               link: "https://getbootstrap.com/",
+            },
+            {
+              text: "TailwindCSS",
+              icon: <SiTailwindcss/>,
+              link: "https://tailwindcss.com/",
+            },
+            {
+              text: "Material Design",
+              icon: <SiMaterialdesign/>,
+              link: "https://material.io/",
             },
           ],
           buttonText: null,

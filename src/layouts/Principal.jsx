@@ -31,7 +31,7 @@ const Layout = () => {
         <Footer />
         <Outlet />
       </div>
-      <video autoPlay muted loop id={styles.video}>
+      <video autoPlay muted loop={true} id={styles.video}>
         <source src="./images/fondo.mp4" type="video/mp4" />
       </video>
     </>
