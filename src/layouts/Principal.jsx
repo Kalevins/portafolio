@@ -32,7 +32,7 @@ const Layout = () => {
         <Outlet />
       </div>
       <video autoPlay muted loop id={styles.video}>
-        <source src="/images/fondo.mp4" type="video/mp4" />
+        <source src="./images/fondo.mp4" type="video/mp4" />
       </video>
     </>
   )
