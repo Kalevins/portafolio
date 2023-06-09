@@ -26,10 +26,10 @@ const Works = () => {
               link: null,
             },
           ],
-          buttonText: null,
-          buttonLink: null,
+          buttonText: t('traductions.0.button'),
+          buttonLink: "https://www.teleperformance.com/",
           repository: null,
-          image: "./images/works/test.png",
+          image: "./images/works/TP.png",
         },
       },
       {
@@ -49,9 +49,31 @@ const Works = () => {
             },
           ],
           buttonText: t('traductions.1.button'),
+          buttonLink: "https://www.eolsolutions.com.co/",
+          repository: null,
+          image: "./images/works/EOL.png",
+        },
+      },
+      {
+        light: true,
+        texts: {
+          name: t('traductions.2.name'),
+          title: [
+            t('traductions.2.title.0'),
+            t('traductions.2.title.1'),
+            t('traductions.2.title.2'),
+          ],
+          description: [
+            {
+              text: t('traductions.2.description.0'),
+              icon: <></>,
+              link: null,
+            },
+          ],
+          buttonText: t('traductions.2.button'),
           buttonLink: "https://lamusitekadeabner.com/",
           repository: null,
-          image: "./images/works/LaMusitekaDeAbner.jpeg",
+          image: "./images/works/LaMusitekaDeAbner.png",
         },
       },
     ])
