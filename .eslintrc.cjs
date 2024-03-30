@@ -1,4 +1,5 @@
 module.exports = {
+  root: true,
   env: { browser: true, es2020: true, node: true },
   extends: [
     'eslint:recommended',
@@ -9,7 +10,7 @@ module.exports = {
   ],
   parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
   settings: { react: { version: 'detect' } },
-  plugins: ['react'],
+  plugins: ['react-refresh'],
   rules: {
     'react/prop-types': 'off',
     'no-console': RULES_STATUS.ERROR,

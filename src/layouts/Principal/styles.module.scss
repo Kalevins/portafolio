@@ -1,0 +1,112 @@
+#video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  filter: grayscale(80%);
+  object-fit: cover;
+}
+
+.container {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5rem;
+  width: calc(100vw - 6rem);
+  height: calc(100vh - 6rem);
+
+  @media only screen and (max-width: 1024px) {
+    border-radius: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .change {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 100000;
+    padding: 40px;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      background-color: rgba(0, 0, 0, 0);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100% 100%;
+      border: none;
+      margin: 0;
+      opacity: 0.6;
+      border-radius: 30%;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      width: 30px;
+      height: 30px;
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      &:focus {
+        outline: none;
+        border: none;
+      }
+    }
+
+    #home {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      filter: brightness(0) invert(1);
+    }
+  }
+
+  .slider {
+    display: flex;
+    height: 100%;
+    transition: all 0.6s ease-in;
+  }
+
+  .prev,
+  .next {
+    border: solid rgba(0, 0, 0);
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: translateY(-50%);
+    top: 50%;
+    z-index: 10000;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.2;
+    transition: all 0.3s ease;
+
+    @media only screen and (max-width: 425px) {
+      display: none;
+    }
+
+    &#light {
+      border: solid rgba(255, 255, 255);
+      border-width: 0 5px 5px 0;
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .prev {
+    transform: rotate(135deg);
+    left: 2%;
+  }
+
+  .next {
+    transform: rotate(-45deg);
+    right: 2%;
+  }
+}

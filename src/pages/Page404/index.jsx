@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 import { useActiveSlide } from '@/contexts';
 
-const Page404 = () => {
+export function Page404() {
 
   const { t } = useTranslation(['404'])
   const { changeSlides } = useActiveSlide()
@@ -32,6 +32,6 @@ const Page404 = () => {
       },
     ])
   }, [t])
-}
 
-export default Page404
+  return <></>
+}

@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
 
-import styles from "@/styles/home.module.scss";
-
 export const TypingEffect = ({text, activate}) => {
 
   const [typing, setTyping] = useState("");
@@ -36,6 +34,6 @@ export const TypingEffect = ({text, activate}) => {
   }, [index]);
 
   return (
-    <span className={styles.text}>{text}</span>
+    <span>{text}</span>
   )
 }

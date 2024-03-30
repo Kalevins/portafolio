@@ -2,14 +2,14 @@ import { useNavigate } from 'react-router-dom';
 import { Outlet } from 'react-router-dom'
 import { FaHome } from 'react-icons/fa';
 
-import ChangeLanguage from '@/components/ChangeLanguage'
-import Footer from '@/components/Footer';
-import Card from '@/components/Card';
+import { ChangeLanguage } from '@/components/ChangeLanguage'
+import { Footer } from '@/components/Footer';
+import { Card } from '@/components/Card';
 import { useActiveSlide } from '@/contexts';
 
-import styles from "@/styles/home.module.scss"
+import styles from "./styles.module.scss"
 
-const Layout = () => {
+export function Principal() {
 
   let navigate = useNavigate();
   const { activeSlide, slides, backActiveSlide, nextActiveSlide } = useActiveSlide()
@@ -37,5 +37,3 @@ const Layout = () => {
     </>
   )
 }
-
-export default Layout

@@ -1,11 +1,14 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Principal from '@/layouts'
-import Home from '@/pages/Home'
-import Works from '@/pages/Works'
-import Skills from '@/pages/Skills'
-import Education from '@/pages/Education'
-import Page404 from '@/pages/Page404'
+import { Principal } from '@/layouts'
+
+import {
+  Home,
+  Works,
+  Skills,
+  Education,
+  Page404
+} from '@/pages'
 
 function App() {
 
