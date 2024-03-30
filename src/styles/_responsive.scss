@@ -1,0 +1,7 @@
+@import 'breakpoints';
+
+@mixin responsiveTo($breakpoint) {
+  @media only screen and (max-width: $breakpoint) {
+    @content;
+  }
+}

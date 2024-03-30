@@ -1,23 +1,70 @@
 @import "colors";
+@import "responsive";
+@import "fonts";
+@import "buttons";
+@import "inputs";
 
-html {
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-  min-width: 100vw;
-  min-height: 100vh;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $white;
+  font-family: $font-family, $font-family-secondary, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $black;
 
-  body {
-    //background-image: linear-gradient(90deg, rgb(255, 153, 0), rgb(255, 0, 200));
-    background-image: linear-gradient(90deg, rgba(255, 153, 0, 0), rgba(255, 0, 200, 0)), url("/images/fondo.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 3rem;
-    -webkit-user-select: none;
-    user-select: none;
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    border-radius: 20px;
+  }
+  &::-webkit-scrollbar-track {
+    background: $black;
+    border-radius: 0px;
+  }
 
-    @media only screen and (max-width: 1024px) {
-      margin: 0;
+  &::-webkit-scrollbar-thumb {
+    background: $primary;
+    border-radius: 20px;
+  }
+
+  input,
+  select,
+  textarea {
+    font-family: $font-family, $font-family-secondary, sans-serif;
+
+    &:focus-visible {
+      outline: none;
     }
+  }
+
+  button {
+    font-family: $font-family, $font-family-secondary, sans-serif;
+  }
+
+  a {
+    color: inherit;
+
+    &:link,
+    &:visited,
+    &:hover,
+    &:active {
+      text-decoration: none;
+    }
+  }
+
+  ul, label, p, span, h1, h2, h3, h4, h5 ,h6, small, label {
+    font-family: $font-family, $font-family-secondary, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: $white;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  code {
+    font-family: $font-family, $font-family-secondary, sans-serif;
   }
 }
