@@ -4,12 +4,10 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "dev": "vite --port 3000",
-    "build": "vite build",
+    "dev": "vite",
+    "build": "vite build && cp ./dist/index.html ./dist/404.html",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "i18next": "^22.5.1",
