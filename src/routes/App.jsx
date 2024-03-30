@@ -10,7 +10,7 @@ import Page404 from '@/pages/Page404'
 function App() {
 
   return (
-    <BrowserRouter basename={import.meta.env.DEV ? '/' : '/Portafolio/'}>
+    <BrowserRouter basename={import.meta.env.VITE_BASE_URL}>
       <Routes>
         <Route path='/' element={<Principal />}>
           <Route index element={<Home/>}/>
