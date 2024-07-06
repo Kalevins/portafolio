@@ -1,0 +1,76 @@
+{
+  "card1": {
+    "sidebar": "Introduction",
+    "subtitle": "Welcome to my portfolio",
+    "title": {
+      "hello": "Hello, ",
+      "name": "I am Kevin Muñoz Rengifo",
+      "positions": [
+        "Frontend Developer",
+        "Backend Developer",
+        "Software Developer",
+        "Electronics and Telecommunications Engineer"
+      ]
+    }
+  },
+  "card2": {
+    "sidebar": "Experience",
+    "experience": [
+      {
+        "company": "Independent (Freelancer)",
+        "position": "Full Stack Developer",
+        "date": "August 2021 - October 2021",
+        "description": [
+          "Develop an independent website to provide an online radio service."
+        ]
+      },
+      {
+        "company": "EOL Solutions SAS",
+        "position": "Full Stack Developer",
+        "date": "February 2022 - July 2023",
+        "description": [
+          "Develop and support an Ecommerce.",
+          "Support and implement new requirements for websites."
+        ]
+      },
+      {
+        "company": "BPO2B Global Inc (Freelancer)",
+        "position": "Front End Developer",
+        "date": "August 2023 - September 2023",
+        "description": [
+          "Develop modules for a Dashboard implementing a Hexagonal architecture."
+        ]
+      },
+      {
+        "company": "ValCredit (Freelancer)",
+        "position": "Front End Developer",
+        "date": "October 2023 - December 2023",
+        "description": [
+          "Develop a website for financial control and management."
+        ]
+      },
+      {
+        "company": "Teleperformance",
+        "position": "Senior Front End Developer",
+        "date": "October 2021 - Present",
+        "description": [
+          "Develop an internal corporate educational system for client training with the company's courses.",
+          "Develop a Content Management System (CMS) with Dashboard, Forecast, and Apps modules.",
+          "Develop application emulation systems that allow appropriation and easy use in a non-productive environment.",
+          "Develop file management, permissions, and tracking applications.",
+          "Resolve and adapt applications related to QA and security issues.",
+          "Support websites."
+        ]
+      }
+    ]
+  },
+  "card3": {
+    "sidebar": "Projects"
+  },
+  "card4": {
+    "sidebar": "Skills"
+  },
+  "card5": {
+    "sidebar": "Education"
+  }
+}

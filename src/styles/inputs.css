@@ -1,0 +1,31 @@
+input,
+select,
+textarea {
+  font-family: var(--font-family-primary), var(--font-family-secondary), sans-serif;
+  border: 0;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+input::-webkit-input-placeholder,
+select::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: var(--color-primary);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}

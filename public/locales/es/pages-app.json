@@ -1,0 +1,123 @@
+{
+  "card1": {
+    "sidebar": "Introducción",
+    "subtitle": "Bienvenido a mi portafolio",
+    "title": {
+      "hello": "Hola, ",
+      "name": "soy Kevin Muñoz Rengifo",
+      "positions": [
+        "Desarrollador Front End",
+        "Desarrollador Back End",
+        "Desarrollador de Software",
+        "Ingeniero de Electrónica y Telecomunicaciones"
+      ]
+    }
+  },
+  "card2": {
+    "sidebar": "Experiencia",
+    "experience": [
+      {
+        "company": "Independiente (Freelancer)",
+        "position": "Desarrollador Full Stack",
+        "date": "Agosto 2021 - Octubre 2021",
+        "description": [
+          "Desarrollar página web independiente para proporcionar un servicio de radio en línea."
+        ],
+        "tecnologies": [
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "company": "EOL Solutions SAS",
+        "position": "Desarrollador Full Stack",
+        "date": "Febrero 2022 - Julio 2023",
+        "description": [
+          "Desarrollar y soportar un Ecommerce.",
+          "Soportar e implementar nuevos requisitos para páginas web."
+        ],
+        "tecnologies": [
+          "React",
+          "Express",
+          "JavaScript",
+          "TypeScript",
+          "HTML",
+          "CSS",
+          "SASS",
+          "TailwindCSS",
+          "Jest"
+        ]
+      },
+      {
+        "company": "BPO2B Global Inc (Freelancer)",
+        "position": "Desarrollador Front End",
+        "date": "Agosto 2023 - Septiembre 2023",
+        "description": [
+          "Desarrollar m ́odulos para un Dashboard implementando una arquitectura Hexagonal"
+        ],
+        "tecnologies": [
+          "React",
+          "TypeScript",
+          "HTML",
+          "StyledComponents",
+          "TailwindCSS"
+        ]
+      },
+      {
+        "company": "ValCredit (Freelancer)",
+        "position": "Desarrollador Front End",
+        "date": "Octubre 2023 - Diciembre 2023",
+        "description": [
+          "Desarrollar página web para el control y gestión de finanzas."
+        ],
+        "tecnologies": [
+          "React",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "SASS",
+          "MSW"
+        ]
+      },
+      {
+        "company": "Teleperformance",
+        "position": "Desarrollador Front End Senior",
+        "date": "Octubre 2021 - Actualidad",
+        "description": [
+          "Desarrollar sistema educativo interno empresarial para la capacitación de clientes con los cursos de la compañía.",
+          "Desarrollar Sistema de Gestión de Contenidos (CMS) con los módulos Dashboard, Forecast y Apps.",
+          "Desarrollar sistemas de emulación de aplicaciones que permiten la apropiación y fácil uso en un entorno no productivo.",
+          "Desarrollar aplicaciones de gestión de archivos, permisos y seguimiento.",
+          "Solucionar y adaptar aplicaciones referentes a QA y errores de seguridad.",
+          "Soportar páginas web."
+        ],
+        "tecnologies": [
+          "React",
+          "Angular",
+          "JavaScript",
+          "TypeScript",
+          "Redux",
+          "HTML",
+          "CSS",
+          "SASS",
+          "TailwindCSS",
+          "Firebase",
+          "OWASP ZAP",
+          "SonarQube",
+          "Vitest",
+          "MSW"
+        ]
+      }
+    ]
+  },
+  "card3": {
+    "sidebar": "Proyectos"
+  },
+  "card4": {
+    "sidebar": "Habilidades"
+  },
+  "card5": {
+    "sidebar": "Educación"
+  }
+}
