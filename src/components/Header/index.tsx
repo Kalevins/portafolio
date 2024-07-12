@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { MenuContext } from '@/contexts';
 import { GrommetIconsGithub, GrommetIconsLinkedinOption, GrommetIconsInstagram } from '@/assets/icons';
 
+import logo from '@/assets/logos/logoBlanco.webp';
 import styles from './styles.module.css';
 
 const variantsNav = {
@@ -89,7 +90,7 @@ export const Header: FC = () => {
   return  (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <img src="/src/assets/logos/logoBlanco.webp" alt="Logo" />
+        <img src={logo} alt="Logo" />
         <div className={styles.texts}>
           <p>Kevin Muñoz Rengifo</p>
           <small>{t("position")}</small>
