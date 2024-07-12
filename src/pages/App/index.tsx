@@ -45,6 +45,13 @@ export const App = () => {
   }, []);
 
   useEffect(() => {
+    if(new Date().getHours() >= 18 || new Date().getHours() < 6) {
+      document.documentElement.style.setProperty('--color-primary', 'rgb(74, 228, 255)');
+      document.documentElement.style.setProperty('--color-primary-opacity', 'rgba(74, 228, 255, 0.9)');
+    }
+  }, []);
+
+  useEffect(() => {
     handleClickScroll(selected);
   }, [selected]);
 

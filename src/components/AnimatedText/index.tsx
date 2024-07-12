@@ -6,13 +6,11 @@ import { Props } from './types';
 export const AnimatedText: FC<Props> = ({ texts }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Cambiar el texto cada 2 segundos (2000ms)
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % texts.length);
     }, 2000);
 
-    // Limpiar el intervalo al desmontar el componente
     return () => clearInterval(interval);
   }, []);
 
