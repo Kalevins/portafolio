@@ -107,13 +107,13 @@ export const App = () => {
               </div>
               <div className={styles.technologies}>
                 {experienceActive.technologies.map((technology, index) => (
-                  <div key={index} className={styles.technology}>
+                  <div
+                    key={index}
+                    className={styles.technology}
+                    onClick={() => window.open(technologies[technology]?.url, '_blank')}
+                  >
                     {technologies[technology]?.icon({style: {width: '40px', height: '40px'}})}
-                    <p
-                      onClick={() => window.open(technologies[technology]?.url, '_blank')}
-                    >
-                      {technologies[technology]?.name}
-                    </p>
+                    <p>{technologies[technology]?.name}</p>
                   </div>
                 ))}
               </div>
@@ -133,13 +133,13 @@ export const App = () => {
                 </div>
                 <div className={styles.technologies}>
                   {project.technologies.map((technology, index) => (
-                    <div key={index} className={styles.technology}>
+                    <div
+                      key={index}
+                      className={styles.technology}
+                      onClick={() => window.open(technologies[technology]?.url, '_blank')}
+                    >
                       {technologies[technology]?.icon({style: {width: '40px', height: '40px'}})}
-                      <p
-                        onClick={() => window.open(technologies[technology]?.url, '_blank')}
-                      >
-                        {technologies[technology]?.name}
-                      </p>
+                      <p>{technologies[technology]?.name}</p>
                     </div>
                   ))}
                 </div>
@@ -178,6 +178,7 @@ export const App = () => {
                   key={index}
                   className={styles.technology}
                   id={technologyActive.name === technology.name ? styles.active : ""}
+                  onClick={() => window.open(technology.url, '_blank')}
                   onMouseEnter={() => setTechnologyActive(technology)}
                 >
                   {technology?.icon({style: {width: '40px', height: '40px'}})}
