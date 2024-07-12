@@ -1,0 +1,213 @@
+{
+  "card1": {
+    "sidebar": "Introducción",
+    "subtitle": "Bienvenido a mi portafolio",
+    "title": {
+      "hello": "Hola, ",
+      "name": "soy Kevin Muñoz Rengifo",
+      "positions": [
+        "Desarrollador Front End",
+        "Desarrollador Back End",
+        "Desarrollador de Software",
+        "Ingeniero de Electrónica y Telecomunicaciones"
+      ]
+    }
+  },
+  "card2": {
+    "sidebar": "Experiencia",
+    "experience": [
+      {
+        "company": "Independiente (Freelancer)",
+        "position": "Desarrollador Full Stack",
+        "dateInit": "2021-08",
+        "dateEnd": "2021-10",
+        "description": [
+          "Desarrollar página web independiente para proporcionar un servicio de radio en línea."
+        ],
+        "technologies": [
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "company": "EOL Solutions SAS",
+        "position": "Desarrollador Full Stack",
+        "dateInit": "2022-02",
+        "dateEnd": "2023-07",
+        "description": [
+          "Desarrollar y soportar un Ecommerce.",
+          "Soportar e implementar nuevos requisitos para páginas web."
+        ],
+        "technologies": [
+          "React",
+          "Express",
+          "JavaScript",
+          "TypeScript",
+          "HTML",
+          "CSS",
+          "SASS",
+          "TailwindCSS",
+          "Jest"
+        ]
+      },
+      {
+        "company": "BPO2B Global Inc (Freelancer)",
+        "position": "Desarrollador Front End",
+        "dateInit": "2023-08",
+        "dateEnd": "2023-09",
+        "description": [
+          "Desarrollar módulos para un Dashboard implementando una arquitectura Hexagonal"
+        ],
+        "technologies": [
+          "React",
+          "TypeScript",
+          "HTML",
+          "StyledComponents",
+          "TailwindCSS"
+        ]
+      },
+      {
+        "company": "ValCredit (Freelancer)",
+        "position": "Desarrollador Front End",
+        "dateInit": "2023-10",
+        "dateEnd": "2023-12",
+        "description": [
+          "Desarrollar página web para el control y gestión de finanzas."
+        ],
+        "technologies": [
+          "React",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "SASS",
+          "MSW"
+        ]
+      },
+      {
+        "company": "Teleperformance",
+        "position": "Desarrollador Front End Senior",
+        "dateInit": "2021-10",
+        "dateEnd": "",
+        "description": [
+          "Desarrollar sistema educativo interno empresarial para la capacitación de clientes con los cursos de la compañía.",
+          "Desarrollar Sistema de Gestión de Contenidos (CMS) con los módulos Dashboard, Forecast y Apps.",
+          "Desarrollar sistemas de emulación de aplicaciones que permiten la apropiación y fácil uso en un entorno no productivo.",
+          "Desarrollar aplicaciones de gestión de archivos, permisos y seguimiento.",
+          "Solucionar y adaptar aplicaciones referentes a QA y errores de seguridad.",
+          "Soportar páginas web."
+        ],
+        "technologies": [
+          "React",
+          "Angular",
+          "JavaScript",
+          "TypeScript",
+          "Redux",
+          "HTML",
+          "CSS",
+          "SASS",
+          "TailwindCSS",
+          "Firebase",
+          "OWASPZAP",
+          "SonarQube",
+          "Vitest",
+          "MSW"
+        ]
+      }
+    ]
+  },
+  "card3": {
+    "sidebar": "Proyectos",
+    "projects": [
+      {
+        "name": "Gest Fin",
+        "description": "Proyecto de un sistema de gestión de ingresos y egresos",
+        "technologies": [
+          "Nextjs",
+          "React",
+          "TypeScript",
+          "TailwindCSS",
+          "ShadcnUi",
+          "Supabase",
+          "GraphQL",
+          "Apollo",
+          "Auth0",
+          "Prisma",
+          "Vitest"
+        ],
+        "repository": "https://github.com/Kalevins/gest-fin",
+        "url": "https://gest-fin.vercel.app/"
+      },
+      {
+        "name": "Your Music",
+        "description": "Proyecto que consume la API de Spotify para mostrar las canciones de un artista y guardarlas en una lista de favoritos.",
+        "technologies": [
+          "React",
+          "Vite",
+          "JavaScript",
+          "SASS",
+          "Vitest"
+        ],
+        "repository": "https://github.com/Kalevins/your-music",
+        "url": "https://kalevins.github.io/your-music/"
+      },
+      {
+        "name": "Crypto AES",
+        "description": "Proyecto web que permite cifrar y descifrar mensajes utilizando el algoritmo AES",
+        "technologies": [
+          "React",
+          "Vite",
+          "JavaScript",
+          "CSS"
+        ],
+        "repository": "https://github.com/Kalevins/crypto-aes",
+        "url": "https://kalevins.github.io/crypto-aes/"
+      },
+      {
+        "name": "Game Search",
+        "description": "Proyecto que consume la API de Twich para la búsqueda de videojuegos con Ajax.",
+        "technologies": [
+          "React",
+          "MaterialUi",
+          "JavaScript",
+          "SASS"
+        ],
+        "repository": "https://github.com/Kalevins/game-search",
+        "url": "https://kalevins.github.io/game-search/"
+      },
+      {
+        "name": "Invisibility Cloak",
+        "description": "Programa para simular la capa de invisibilidad de las películas de ficción de Harry Potter.",
+        "technologies": [
+          "Python",
+          "OpenCV"
+        ],
+        "repository": "https://github.com/Kalevins/invisibility-cloak",
+        "url": ""
+      },
+      {
+        "name": "School Security",
+        "description": "Sistema de vigilancia mediante cámaras de seguridad inteligentes para escuelas.",
+        "technologies": [
+          "Python",
+          "OpenCV"
+        ],
+        "repository": "https://github.com/Kalevins/school-security",
+        "url": ""
+      },
+      {
+        "name": "Vehicle Count",
+        "description": "Sistema inteligente de conteo vehicular en vías publicas.",
+        "technologies": [
+          "Cplusplus",
+          "Doxygen"
+        ],
+        "repository": "https://github.com/Kalevins/vehicle-count",
+        "url": ""
+      }
+    ]
+  },
+  "card4": {
+    "sidebar": "Habilidades"
+  }
+}

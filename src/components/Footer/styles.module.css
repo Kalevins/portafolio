@@ -1,0 +1,27 @@
+@import '@/styles/buttons.css';
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .buttonsContainer {
+    display: flex;
+    gap: 20px;
+
+    button {
+      padding: 5px 10px;
+
+      &:hover, &#active{
+        color: var(--color-primary);
+      }
+    }
+  }
+}

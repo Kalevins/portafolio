@@ -1,0 +1,53 @@
+@import 'buttons.css';
+@import 'colors.css';
+@import 'fonts.css';
+@import 'inputs.css';
+@import 'screens.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-white);
+  font-family: var(--font-family-primary), var(--font-family-secondary), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-black);
+  color: var(--color-white);
+
+  & ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    border-radius: 20px;
+  }
+
+  & ::-webkit-scrollbar-track {
+    background: var(--color-black);
+    border-radius: 0px;
+  }
+
+  & ::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+    border-radius: 20px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, ul, label, p, span, small, label, code {
+  font-family: var(--font-family-primary), var(--font-family-secondary), sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+
+  &:link,
+  &:visited,
+  &:hover,
+  &:active {
+    text-decoration: none;
+  }
+}
+
+li {
+  list-style: none;
+}

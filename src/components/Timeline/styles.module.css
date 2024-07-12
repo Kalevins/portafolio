@@ -1,0 +1,101 @@
+.timeline {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+
+  .experienceContainer {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+
+    &:first-child .experience {
+      margin-top: 0;
+    }
+
+    &:last-child .experience {
+      margin-bottom: 0;
+    }
+
+    .line {
+      width: 40px;
+      height: 100%;
+      background-color: transparent;
+      border-left: 4px solid var(--color-primary);
+      box-sizing: border-box;
+      position: relative;
+      margin: 0 10px;
+
+      &.level0 {
+        &::after {
+          content: '';
+          position: absolute;
+          top: -2px;
+          left: -2px;
+          transform: translate(-50%, -50%);
+          width: 20px;
+          height: 20px;
+          background-color: var(--color-primary);
+          border-radius: 50%;
+        }
+      }
+
+      &.level1 {
+        display: flex;
+        border-right: 4px solid var(--color-primary);
+        box-sizing: border-box;
+
+        &#first {
+          border-top: 4px solid var(--color-primary);
+          border-radius: 0 10px 0 0;
+        }
+
+        &#last {
+          border-bottom: 4px solid var(--color-primary);
+          border-radius: 0 0 10px 0;
+        }
+
+        &::after {
+          content: '';
+          position: absolute;
+          top: 0;
+          right: -2px;
+          transform: translate(50%, -50%);
+          width: 20px;
+          height: 20px;
+          background-color: var(--color-primary);
+          border-radius: 50%;
+        }
+      }
+    }
+
+    .experience {
+      padding: 20px;
+      border-radius: 10px;
+      /* border: 2px solid var(--color-primary); */
+      margin: 10px 0;
+      cursor: pointer;
+      background-color: var(--color-black-opacity);
+      transition: background-color 0.5s, color 0.5s;
+
+      &#active {
+        background-color: var(--color-primary-opacity);
+        color: var(--color-black);
+      }
+
+      > p {
+        text-transform: capitalize;
+      }
+
+      .descriptionContainer {
+        max-width: 0;
+        height: 0;
+        overflow: hidden;
+
+        &.active {
+          max-width: 100%;
+          transition: max-width 0.5s;
+        }
+      }
+    }
+  }
+}

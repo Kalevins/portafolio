@@ -1,0 +1,276 @@
+.main {
+  position: relative;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: auto;
+
+    &#card1 {
+      align-items: flex-start;
+      justify-content: center;
+      height: 100vh;
+      gap: 10%;
+      padding: 0 10%;
+
+      .textContainer {
+        h1 {
+          font-size: 3rem;
+          font-weight: 700;
+
+          span {
+            color: var(--color-primary);
+          }
+        }
+
+        > div {
+          position: relative;
+          height: 58px;
+        }
+      }
+
+      .line {
+        width: 10%;
+        height: 2px;
+        background-color: var(--color-primary);
+      }
+    }
+
+    &#card2, &#card3, &#card4 {
+      .technologies {
+        .technology {
+          width: 40px;
+          height: 40px;
+          padding: 10px;
+          border: 2px solid var(--color-primary);
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          cursor: pointer;
+
+          &:hover {
+            > p {
+              width: 40px;
+              height: 40px;
+              padding: 10px;
+              border: 2px solid var(--color-primary);
+              background-color: var(--color-primary);
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            }
+          }
+
+          > p {
+            position: absolute;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 0;
+            width: 0;
+            color: var(--color-black);
+            overflow: hidden;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: width 0.5s, height 0.5s, padding 0.5s, background-color 0.5s, color 0.5s, box-shadow 0.5s;
+          }
+        }
+      }
+    }
+
+    &#card2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 100%;
+      height: 100%;
+      gap: 20px;
+      align-items: center;
+
+      .descriptionContainer {
+        margin: 20px 0;
+        max-height: calc(100% - 40px);
+        border-radius: 10px;
+        /* border: 2px solid var(--color-primary); */
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: var(--color-black-opacity);
+
+        .content {
+          display: flex;
+          flex-direction: column;
+
+          > h3 {
+            background-color: var(--color-primary-opacity);
+            color: var(--color-black);
+            padding: 5px;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+            border-radius: 6px 6px 0 0;
+          }
+
+          > ul  {
+            padding: 20px;
+          }
+
+          .description {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            > li {
+              &::before {
+                content: '';
+                width: 10px;
+                height: 10px;
+                background-color: var(--color-primary);
+                border-radius: 50%;
+                display: inline-block;
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+
+        .technologies {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 20px;
+          padding: 20px;
+        }
+      }
+    }
+
+    &#card3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+      padding-right: 10px;
+
+      .project {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--color-black-opacity);
+        border-radius: 10px;
+        gap: 20px;
+        justify-content: space-between;
+
+        .content {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          > h3 {
+            background-color: var(--color-primary-opacity);
+            color: var(--color-black);
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+            border-radius: 6px 6px 0 0;
+          }
+
+          > p {
+            text-align: justify;
+            padding: 0 20px;
+          }
+        }
+
+        .technologies {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          padding: 0 20px;
+          justify-content: center;
+        }
+
+        .links {
+          display: flex;
+          gap: 10px;
+          justify-content: flex-start;
+          padding: 20px;
+          padding-top: 0;
+
+          a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border: 2px solid var(--color-white);
+            border-radius: 50%;
+            color: var(--color-white);
+            transition: background-color 0.5s, color 0.5s;
+            box-sizing: border-box;
+
+            > svg {
+              width: 20px;
+              height: 20px;
+            }
+
+            &:hover {
+              background-color: var(--color-white);
+              color: var(--color-black);
+            }
+          }
+        }
+      }
+    }
+
+    &#card4 {
+      position: relative;
+      width: 100%;
+      display: grid;
+      grid-template-rows: 1fr auto;
+      gap: 40px;
+
+      .choiseTechnology {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+
+        > svg {
+          height: 100%;
+          width: auto;
+          max-width: 100%;
+          opacity: 0.8;
+        }
+      }
+
+      .technologies {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100%;
+        gap: 20px;
+
+        .technology {
+          cursor: inherit;
+          transition: background-color 0.5s, color 0.5s;
+
+          &#active {
+            background-color: var(--color-primary);
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}

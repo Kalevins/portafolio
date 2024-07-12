@@ -1,0 +1,214 @@
+{
+  "card1": {
+    "sidebar": "Introduction",
+    "subtitle": "Welcome to my portfolio",
+    "title": {
+      "hello": "Hello, ",
+      "name": "I am Kevin Muñoz Rengifo",
+      "positions": [
+        "Frontend Developer",
+        "Backend Developer",
+        "Software Developer",
+        "Electronics and Telecommunications Engineer"
+      ]
+    }
+  },
+  "card2": {
+    "sidebar": "Experience",
+    "present": "Present",
+    "experience": [
+      {
+        "company": "Independent (Freelancer)",
+        "position": "Full Stack Developer",
+        "dateInit": "2021-08",
+        "dateEnd": "2021-10",
+        "description": [
+          "Develop an independent website to provide an online radio service."
+        ],
+        "technologies": [
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "company": "EOL Solutions SAS",
+        "position": "Full Stack Developer",
+        "dateInit": "2022-02",
+        "dateEnd": "2023-07",
+        "description": [
+          "Develop and support an Ecommerce.",
+          "Support and implement new requirements for websites."
+        ],
+        "technologies": [
+          "React",
+          "Express",
+          "JavaScript",
+          "TypeScript",
+          "HTML",
+          "CSS",
+          "SASS",
+          "TailwindCSS",
+          "Jest"
+        ]
+      },
+      {
+        "company": "BPO2B Global Inc (Freelancer)",
+        "position": "Front End Developer",
+        "dateInit": "2023-08",
+        "dateEnd": "2023-09",
+        "description": [
+          "Develop modules for a Dashboard implementing a Hexagonal architecture."
+        ],
+        "technologies": [
+          "React",
+          "TypeScript",
+          "HTML",
+          "StyledComponents",
+          "TailwindCSS"
+        ]
+      },
+      {
+        "company": "ValCredit (Freelancer)",
+        "position": "Front End Developer",
+        "dateInit": "2023-10",
+        "dateEnd": "2023-12",
+        "description": [
+          "Develop a website for financial control and management."
+        ],
+        "technologies": [
+          "React",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "SASS",
+          "MSW"
+        ]
+      },
+      {
+        "company": "Teleperformance",
+        "position": "Senior Front End Developer",
+        "dateInit": "2021-10",
+        "dateEnd": "",
+        "description": [
+          "Develop an internal corporate educational system for client training with the company's courses.",
+          "Develop a Content Management System (CMS) with Dashboard, Forecast, and Apps modules.",
+          "Develop application emulation systems that allow appropriation and easy use in a non-productive environment.",
+          "Develop file management, permissions, and tracking applications.",
+          "Resolve and adapt applications related to QA and security issues.",
+          "Support websites."
+        ],
+        "technologies": [
+          "React",
+          "Angular",
+          "JavaScript",
+          "TypeScript",
+          "Redux",
+          "HTML",
+          "CSS",
+          "SASS",
+          "TailwindCSS",
+          "Firebase",
+          "OWASPZAP",
+          "SonarQube",
+          "Vitest",
+          "MSW"
+        ]
+      }
+    ]
+  },
+  "card3": {
+    "sidebar": "Projects",
+    "projects": [
+      {
+        "name": "Gest Fin",
+        "description": "Income and expense management system project",
+        "technologies": [
+          "Nextjs",
+          "React",
+          "TypeScript",
+          "TailwindCSS",
+          "ShadcnUi",
+          "Supabase",
+          "GraphQL",
+          "Apollo",
+          "Auth0",
+          "Prisma",
+          "Vitest"
+        ],
+        "repository": "https://github.com/Kalevins/gest-fin",
+        "url": "https://gest-fin.vercel.app/"
+      },
+      {
+        "name": "Your Music",
+        "description": "Project that consumes the Spotify API to show an artist's songs and save them to a favorites list.",
+        "technologies": [
+          "React",
+          "Vite",
+          "JavaScript",
+          "SASS",
+          "Vitest"
+        ],
+        "repository": "https://github.com/Kalevins/your-music",
+        "url": "https://kalevins.github.io/your-music/"
+      },
+      {
+        "name": "Crypto AES",
+        "description": "Web project that allows encrypting and decrypting messages using the AES algorithm",
+        "technologies": [
+          "React",
+          "Vite",
+          "JavaScript",
+          "CSS"
+        ],
+        "repository": "https://github.com/Kalevins/crypto-aes",
+        "url": "https://kalevins.github.io/crypto-aes/"
+      },
+      {
+        "name": "Game Search",
+        "description": "Project that consumes the Twich API to search for video games with Ajax.",
+        "technologies": [
+          "React",
+          "MaterialUi",
+          "JavaScript",
+          "SASS"
+        ],
+        "repository": "https://github.com/Kalevins/game-search",
+        "url": "https://kalevins.github.io/game-search/"
+      },
+      {
+        "name": "Invisibility Cloak",
+        "description": "Program to simulate the invisibility cloak from Harry Potter fiction movies.",
+        "technologies": [
+          "Python",
+          "OpenCV"
+        ],
+        "repository": "https://github.com/Kalevins/invisibility-cloak",
+        "url": ""
+      },
+      {
+        "name": "School Security",
+        "description": "Intelligent surveillance system using smart security cameras for schools.",
+        "technologies": [
+          "Python",
+          "OpenCV"
+        ],
+        "repository": "https://github.com/Kalevins/school-security",
+        "url": ""
+      },
+      {
+        "name": "Vehicle Count",
+        "description": "Intelligent vehicle counting system on public roads.",
+        "technologies": [
+          "Cplusplus",
+          "Doxygen"
+        ],
+        "repository": "https://github.com/Kalevins/vehicle-count",
+        "url": ""
+      }
+    ]
+  },
+  "card4": {
+    "sidebar": "Skills"
+  }
+}

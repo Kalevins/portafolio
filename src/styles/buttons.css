@@ -1,0 +1,36 @@
+button {
+  font-family: var(--font-family-primary), var(--font-family-secondary), sans-serif;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+
+  &.transparent {
+    background: transparent;
+    color: var(--color-white);
+  }
+
+  &.primary {
+    background: linear-gradient(90deg, transparent, transparent) padding-box,
+      linear-gradient(90deg, var(--color-primary), var(--color-secondary)) border-box;
+    color: var(--color-white);
+  }
+
+  &.secondary {
+    background:
+      linear-gradient(90deg, var(--color-black), var(--color-black)) padding-box,
+      linear-gradient(90deg, var(--color-primary), var(--color-secondary)) border-box;
+    color: var(--color-white);
+  }
+
+  &:hover {
+    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.2);
+  }
+
+  &.transparent:hover {
+    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0);
+  }
+}
