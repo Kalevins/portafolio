@@ -17,8 +17,8 @@ npm run dev
 
 * [React](https://reactjs.org/) - Librearia de JavaScript
 * [Vite](https://vitejs.dev/) - Herramienta de desarrollo
-* [CSS](https://developer.mozilla.org/es/docs/Web/CSS) - Lenguaje de estilos
-* [JavaScript](https://www.javascript.com/) - Lenguaje de programación
+* [CSS Modules](https://developer.mozilla.org/es/docs/Web/CSS) - Lenguaje de estilos
+* [TypeScript](https://www.typescriptlang.org/) - Superset de JavaScript
 
 ## ✒️ Autores
 
