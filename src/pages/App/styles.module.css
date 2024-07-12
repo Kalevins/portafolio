@@ -144,12 +144,23 @@
           padding: 20px;
         }
       }
+
+      @media screen and (width <= 768px) {
+        grid-template-columns: 1fr;
+        padding-right: 10px;
+
+        .descriptionContainer {
+          display: none;
+        }
+      }
     }
 
     &#card3 {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      gap: 20px;
+      grid-gap: 20px;
+      grid-auto-flow: row;
+      grid-auto-rows: calc(50% - 10px);
       padding-right: 10px;
 
       .project {
@@ -220,6 +231,18 @@
           }
         }
       }
+
+      @media screen and (width <= 1536px) {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      @media screen and (width <= 1024px) {
+        grid-template-columns: 1fr;
+      }
+
+      @media screen and (width <= 640px) {
+        grid-auto-rows: calc(100% - 10px);
+      }
     }
 
     &#card4 {
@@ -253,12 +276,17 @@
         gap: 20px;
 
         .technology {
-          cursor: inherit;
           transition: background-color 0.5s, color 0.5s;
 
           &#active {
             background-color: var(--color-primary);
           }
+        }
+      }
+
+      @media screen and (width <= 768px) {
+        .choiseTechnology {
+          display: none;
         }
       }
     }
