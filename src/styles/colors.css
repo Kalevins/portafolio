@@ -1,9 +1,11 @@
 :root {
-  --color-primary: #f3bf2f;
+  --color-primary: rgb(74, 228, 255);
+  --color-primary-opacity: rgba(74, 228, 255, 0.9);
   --color-secondary: #7d25b3;
   --color-tertiary: #DD3E9D;
   --color-gray: #f4f4f4;
   --color-darkGray: #e5e5e5;
   --color-white: #ffffff;
-  --color-black: #141414;
+  --color-black: rgb(20, 20, 20);
+  --color-black-opacity: rgba(20, 20, 20, 0.3);
 }

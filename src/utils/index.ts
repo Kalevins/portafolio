@@ -1,2 +1,4 @@
+export * from './dates'
+export * from './experiences'
 export * from './i18n'
-export * from './tecnologies'
+export * from './technologies'

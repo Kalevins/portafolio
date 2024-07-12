@@ -1,28 +1,63 @@
-import { useRef } from 'react'
-import { useScroll } from 'framer-motion'
+import { useCallback, useContext, useEffect, useRef, useState } from 'react'
+import { motion, useScroll } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 
 import { Cards } from '@/layouts'
-import { Footer, Header, Scrollbar, Card, AnimatedText } from '@/components'
+import { Footer, Header, Scrollbar, Card, AnimatedText, Timeline } from '@/components'
+import { Experience, Project, Technology } from '@/types'
+import { groupExperiencesByDate, technologies } from '@/utils'
+import { GrommetIconsGithub, MaterialSymbolsWebAsset } from '@/assets/icons'
+import { MenuContext } from '@/contexts'
 
 import card1Image from '@/assets/images/card1.webp'
+//import card2Image from '@/assets/images/card2.webp'
+import card3Image from '@/assets/images/card3.webp'
+import card4Image from '@/assets/images/card4.webp'
+import card5Image from '@/assets/images/card5.webp'
 import styles from './styles.module.css'
 
 export const App = () => {
   const { t } = useTranslation(["pages-app"])
   const ref = useRef<HTMLDivElement | null>(null);
   const { scrollYProgress } = useScroll({ container: ref });
-  const cards = 5;
+  const { selected } = useContext(MenuContext);
+  const [experienceActive, setExperienceActive] = useState<Experience>({
+    position: "",
+    company: "",
+    dateInit: "",
+    dateEnd: "",
+    description: [],
+    technologies: [],
+    level: 0
+  });
+  const [technologyActive, setTechnologyActive] = useState<Technology>({
+    name: "",
+    url: "",
+    icon: () => <></>
+  });
+  const cards = 4;
   const positions = t("card1.title.positions")
-  const experiences = t("card2.experience")
+  const experiences = groupExperiencesByDate(t("card2.experience") as unknown as Experience[])
+  const projects = t("card3.projects") as unknown as Project[];
 
-  console.log('experiences', experiences)
+  useEffect(() => {
+    setTechnologyActive(technologies[Object.keys(technologies)[Math.floor(Math.random() * Object.keys(technologies).length)]]);
+  }, []);
 
-  const handleClickScroll = (index: number) => {
+  useEffect(() => {
+    handleClickScroll(selected);
+  }, [selected]);
+
+  const handleExperienceActive = useCallback((index: number) => {
+    setExperienceActive(experiences[index]);
+  }, [experiences]);
+
+  const handleClickScroll = useCallback((index: number) => {
     if (ref.current) {
       ref.current.scrollTo({ top: index * window.innerHeight, behavior: "smooth" });
     }
-  };
+  }, []);
+
 
   return (
     <main className={styles.main}>
@@ -45,114 +80,110 @@ export const App = () => {
         </Card>
         <Card
           title={t("card2.sidebar")}
-          imgBackground=""
+          imgBackground={card3Image}
         >
           <div className={styles.container} id={styles.card2}>
-            <h1>h1</h1>
-            <h2>h2</h2>
-            <h3>h3</h3>
-            <h4>h4</h4>
-            <h5>h5</h5>
-            <h6>h6</h6>
-            <p>p</p>
-            <small>small</small>
-            <ul>
-              <li>li</li>
-            </ul>
-            <ol>
-              <li>li</li>
-            </ol>
-            <a href="#">a</a>
-            <label>label</label>
-            <span>span</span>
-            <code>code</code>
-            <pre>pre</pre>
-            <input type="text" />
-            <button>button</button>
+            <Timeline experiences={experiences} handleExperienceActive={handleExperienceActive} />
+            <motion.div
+              key={experienceActive.company}
+              initial={{
+                opacity: 0
+              }}
+              animate={{
+                opacity: 1,
+                transition: {
+                  duration: 1
+                }
+              }}
+              className={styles.descriptionContainer}
+            >
+              <div className={styles.content}>
+                <h3>{`${experienceActive.position} - ${experienceActive.company}`}</h3>
+                <ul className={styles.description}>
+                  {experienceActive.description.map((desc, index) => (
+                    <li key={index}>{desc}</li>
+                  ))}
+                </ul>
+              </div>
+              <div className={styles.technologies}>
+                {experienceActive.technologies.map((technology, index) => (
+                  <div key={index} className={styles.technology}>
+                    {technologies[technology]?.icon({style: {width: '40px', height: '40px'}})}
+                    <p
+                      onClick={() => window.open(technologies[technology]?.url, '_blank')}
+                    >
+                      {technologies[technology]?.name}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
           </div>
         </Card>
         <Card
           title={t("card3.sidebar")}
-          imgBackground=""
+          imgBackground={card4Image}
         >
           <div className={styles.container} id={styles.card3}>
-            <h1>h1</h1>
-            <h2>h2</h2>
-            <h3>h3</h3>
-            <h4>h4</h4>
-            <h5>h5</h5>
-            <h6>h6</h6>
-            <p>p</p>
-            <small>small</small>
-            <ul>
-              <li>li</li>
-            </ul>
-            <ol>
-              <li>li</li>
-            </ol>
-            <a href="#">a</a>
-            <label>label</label>
-            <span>span</span>
-            <code>code</code>
-            <pre>pre</pre>
-            <input type="text" />
-            <button>button</button>
+            {projects.map((project, index) => (
+              <div key={index} className={styles.project}>
+                <div className={styles.content}>
+                  <h3>{project.name}</h3>
+                  <p>{project.description}</p>
+                </div>
+                <div className={styles.technologies}>
+                  {project.technologies.map((technology, index) => (
+                    <div key={index} className={styles.technology}>
+                      {technologies[technology]?.icon({style: {width: '40px', height: '40px'}})}
+                      <p
+                        onClick={() => window.open(technologies[technology]?.url, '_blank')}
+                      >
+                        {technologies[technology]?.name}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+                <div className={styles.links}>
+                  {project?.repository && <a href={project.repository} target="_blank" rel="noreferrer"><GrommetIconsGithub/></a>}
+                  {project?.url && <a href={project.url} target="_blank" rel="noreferrer"><MaterialSymbolsWebAsset/></a>}
+                </div>
+              </div>
+            ))}
           </div>
         </Card>
         <Card
           title={t("card4.sidebar")}
-          imgBackground=""
+          imgBackground={card5Image}
         >
           <div className={styles.container} id={styles.card4}>
-            <h1>h1</h1>
-            <h2>h2</h2>
-            <h3>h3</h3>
-            <h4>h4</h4>
-            <h5>h5</h5>
-            <h6>h6</h6>
-            <p>p</p>
-            <small>small</small>
-            <ul>
-              <li>li</li>
-            </ul>
-            <ol>
-              <li>li</li>
-            </ol>
-            <a href="#">a</a>
-            <label>label</label>
-            <span>span</span>
-            <code>code</code>
-            <pre>pre</pre>
-            <input type="text" />
-            <button>button</button>
-          </div>
-        </Card>
-        <Card
-          title={t("card5.sidebar")}
-          imgBackground=""
-        >
-          <div className={styles.container} id={styles.card5}>
-            <h1>h1</h1>
-            <h2>h2</h2>
-            <h3>h3</h3>
-            <h4>h4</h4>
-            <h5>h5</h5>
-            <h6>h6</h6>
-            <p>p</p>
-            <small>small</small>
-            <ul>
-              <li>li</li>
-            </ul>
-            <ol>
-              <li>li</li>
-            </ol>
-            <a href="#">a</a>
-            <label>label</label>
-            <span>span</span>
-            <code>code</code>
-            <pre>pre</pre>
-            <input type="text" />
-            <button>button</button>
+            <motion.div
+              key={technologyActive.name}
+              initial={{
+                opacity: 0
+              }}
+              animate={{
+                opacity: 1,
+                transition: {
+                  duration: 1
+                }
+              }}
+              className={styles.choiseTechnology}
+            >
+              <h1>{technologyActive.name}</h1>
+              {technologyActive.icon({})}
+            </motion.div>
+            <div className={styles.technologies}>
+              {Object.values(technologies).map((technology, index) => (
+                <div
+                  key={index}
+                  className={styles.technology}
+                  id={technologyActive.name === technology.name ? styles.active : ""}
+                  onMouseEnter={() => setTechnologyActive(technology)}
+                >
+                  {technology?.icon({style: {width: '40px', height: '40px'}})}
+                </div>
+              ))}
+            </div>
           </div>
         </Card>
       </Cards>

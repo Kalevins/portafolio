@@ -1,3 +1,9 @@
 {
-  "position": "Frontend Developer"
+  "position": "Frontend Developer",
+  "menu": [
+    "Introduction",
+    "Experience",
+    "Projects",
+    "Skills"
+  ]
 }

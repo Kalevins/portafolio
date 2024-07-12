@@ -60,6 +60,7 @@
       display: grid;
       grid-template-rows: repeat(3, auto);
       gap: 6px;
+      z-index: 10;
 
       span {
         display: block;
@@ -72,6 +73,10 @@
     }
 
     &#active {
+      span {
+        background-color: var(--color-black);
+      }
+
       .hamburguer {
         span:nth-child(1) {
           transform: rotate(45deg) translate(6px, 6px);
@@ -81,6 +86,46 @@
         }
         span:nth-child(3) {
           transform: rotate(-45deg) translate(6px, -6px);
+        }
+      }
+    }
+
+    nav {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100dvh;
+      background: #fff;
+      overflow: hidden;
+
+      ul,
+      li {
+        margin: 0;
+        padding: 0;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 25px;
+        padding-top: 60px;
+        width: 100%;
+        box-sizing: border-box;
+
+        li {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+
+          > h3 {
+            color: var(--color-black);
+
+            &:hover, &.selected {
+              color: var(--color-primary);
+            }
+          }
         }
       }
     }
