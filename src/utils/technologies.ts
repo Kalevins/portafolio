@@ -1,56 +1,60 @@
 import {
-  LogosReact,
-  LogosNextjsIcon,
-  LogosAngularIcon,
   LogosJavascript,
   LogosTypescriptIcon,
-  LogosRedux,
+  LogosPython,
+  LogosCPlusplus,
+  LogosReact,
+  LogosAngularIcon,
+  LogosNextjsIcon,
+  LogosNodejsIconAlt,
   LogosHtml5,
   LogosCss3,
   LogosSass,
   VscodeIconsFileTypeStyled,
   LogosTailwindcssIcon,
-  LogosFirebase,
-  LogosExpress,
-  SimpleIconsZap,
-  LogosSonarqube,
+  LogosMaterialUi,
+  SimpleIconsShadcnui,
   LogosVitejs,
+  LogosRedux,
+  LogosZustand,
+  LogosChartjs,
+  LogosFramer,
+  SimpleIconsI18next,
+  SimpleIconsReacthookform,
+  LogosReactRouter,
+  LogosOpencv,
+  VscodeIconsFileTypeDoxygen,
   LogosVitest,
   LogosJest,
   LogosMswIcon,
-  LogosMicrosoftWindowsIcon,
-  LogosLinuxTux,
-  LogosMaterialUi,
-  SimpleIconsShadcnui,
-  LogosNodejsIconAlt,
-  LogosGraphql,
-  LogosApollostack,
+  LogosPostmanIcon,
+  LogosExpress,
+  LogosFirebase,
+  LogosSupabaseIcon,
   LogosAuth0Icon,
   LogosPrisma,
-  LogosSupabaseIcon,
-  LogosPython,
-  LogosOpencv,
-  LogosCPlusplus,
-  VscodeIconsFileTypeDoxygen
+  LogosGraphql,
+  LogosApollostack,
+  SimpleIconsZap,
+  LogosSonarqube,
+  LogosGitIcon,
+  LogosGithubIcon,
+  LogosBitbucket,
+  LogosGithubCopilot,
+  LogosAws,
+  LogosMicrosoftAzure,
+  LogosVercelIcon,
+  LogosDockerIcon,
+  LogosKubernetes,
+  LogosNginx,
+  LogosMicrosoftWindowsIcon,
+  LogosLinuxTux,
+  LogosFigma,
 } from "@/assets/icons"
 import { Technologies } from "@/types"
 
 export const technologies: Technologies = {
-  React: {
-    name: "React",
-    url: "https://reactjs.org/",
-    icon: LogosReact
-  },
-  Nextjs: {
-    name: "Next.js",
-    url: "https://nextjs.org/",
-    icon: LogosNextjsIcon
-  },
-  Angular: {
-    name: "Angular",
-    url: "https://angular.io/",
-    icon: LogosAngularIcon
-  },
+  // Languages
   JavaScript: {
     name: "Java Script",
     url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
@@ -71,16 +75,28 @@ export const technologies: Technologies = {
     url: "https://isocpp.org/",
     icon: LogosCPlusplus
   },
-  OpenCV: {
-    name: "OpenCV",
-    url: "https://opencv.org/",
-    icon: LogosOpencv
+  // Frameworks
+  React: {
+    name: "React",
+    url: "https://reactjs.org/",
+    icon: LogosReact
   },
-  Redux: {
-    name: "Redux",
-    url: "https://redux.js.org/",
-    icon: LogosRedux,
+  Angular: {
+    name: "Angular",
+    url: "https://angular.io/",
+    icon: LogosAngularIcon
   },
+  Nextjs: {
+    name: "Next.js",
+    url: "https://nextjs.org/",
+    icon: LogosNextjsIcon
+  },
+  Nodejs: {
+    name: "Node.js",
+    url: "https://nodejs.org/",
+    icon: LogosNodejsIconAlt
+  },
+  // Frontend
   HTML: {
     name: "HTML",
     url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
@@ -116,6 +132,84 @@ export const technologies: Technologies = {
     url: "https://ui.shadcn.com/",
     icon: SimpleIconsShadcnui
   },
+  // Libraries
+  Vite: {
+    name: "Vite",
+    url: "https://vitejs.dev/",
+    icon: LogosVitejs
+  },
+  Redux: {
+    name: "Redux",
+    url: "https://redux.js.org/",
+    icon: LogosRedux
+  },
+  Zustand: {
+    name: "Zustand",
+    url: "https://zustand.surge.sh/",
+    icon: LogosZustand
+  },
+  ChartJS: {
+    name: "Chart.js",
+    url: "https://www.chartjs.org/",
+    icon: LogosChartjs
+  },
+  Framer: {
+    name: "Framer Motion",
+    url: "https://www.framer.com/",
+    icon: LogosFramer
+  },
+  I18next: {
+    name: "i18next",
+    url: "https://www.i18next.com/",
+    icon: SimpleIconsI18next
+  },
+  ReactHookForm: {
+    name: "React Hook Form",
+    url: "https://react-hook-form.com/",
+    icon: SimpleIconsReacthookform
+  },
+  ReactRouter: {
+    name: "React Router",
+    url: "https://reactrouter.com/",
+    icon: LogosReactRouter
+  },
+  OpenCV: {
+    name: "OpenCV",
+    url: "https://opencv.org/",
+    icon: LogosOpencv
+  },
+  Doxygen: {
+    name: "Doxygen",
+    url: "https://www.doxygen.nl/index.html",
+    icon: VscodeIconsFileTypeDoxygen
+  },
+  // Testing
+  Vitest: {
+    name: "Vitest",
+    url: "https://vitest.dev/",
+    icon: LogosVitest
+  },
+  Jest: {
+    name: "Jest",
+    url: "https://jestjs.io/",
+    icon: LogosJest
+  },
+  MSW: {
+    name: "MSW",
+    url: "https://mswjs.io/",
+    icon: LogosMswIcon
+  },
+  Postman: {
+    name: "Postman",
+    url: "https://www.postman.com/",
+    icon: LogosPostmanIcon
+  },
+  // Backend
+  Express: {
+    name: "Express",
+    url: "https://expressjs.com/",
+    icon: LogosExpress
+  },
   Firebase: {
     name: "Firebase",
     url: "https://firebase.google.com/",
@@ -125,11 +219,6 @@ export const technologies: Technologies = {
     name: "Supabase",
     url: "https://supabase.io/",
     icon: LogosSupabaseIcon
-  },
-  Express: {
-    name: "Express",
-    url: "https://expressjs.com/",
-    icon: LogosExpress
   },
   Auth0: {
     name: "Auth0",
@@ -151,6 +240,7 @@ export const technologies: Technologies = {
     url: "https://www.apollographql.com/",
     icon: LogosApollostack
   },
+  // QA
   OWASPZAP: {
     name: "OWASP ZAP",
     url: "https://www.zaproxy.org/",
@@ -161,36 +251,59 @@ export const technologies: Technologies = {
     url: "https://www.sonarqube.org/",
     icon: LogosSonarqube
   },
-  Vite: {
-    name: "Vite",
-    url: "https://vitejs.dev/",
-    icon: LogosVitejs
+  // Version Control
+  Git: {
+    name: "Git",
+    url: "https://git-scm.com/",
+    icon: LogosGitIcon
   },
-  Vitest: {
-    name: "Vitest",
-    url: "https://vitest.dev/",
-    icon: LogosVitest
+  GitHub: {
+    name: "GitHub",
+    url: "https://github.com/",
+    icon: LogosGithubIcon
   },
-  Jest: {
-    name: "Jest",
-    url: "https://jestjs.io/",
-    icon: LogosJest
+  Bitbucket: {
+    name: "Bitbucket",
+    url: "https://bitbucket.org/",
+    icon: LogosBitbucket
   },
-  MSW: {
-    name: "MSW",
-    url: "https://mswjs.io/",
-    icon: LogosMswIcon
+  GitHubCopilot: {
+    name: "GitHub Copilot",
+    url: "https://copilot.github.com/",
+    icon: LogosGithubCopilot
   },
-  Nodejs: {
-    name: "Node.js",
-    url: "https://nodejs.org/",
-    icon: LogosNodejsIconAlt
+  // Cloud
+  AWS: {
+    name: "AWS",
+    url: "https://aws.amazon.com/",
+    icon: LogosAws
   },
-  Doxygen: {
-    name: "Doxygen",
-    url: "https://www.doxygen.nl/index.html",
-    icon: VscodeIconsFileTypeDoxygen
+  Azure: {
+    name: "Microsoft Azure",
+    url: "https://azure.microsoft.com/",
+    icon: LogosMicrosoftAzure
   },
+  Vercel: {
+    name: "Vercel",
+    url: "https://vercel.com/",
+    icon: LogosVercelIcon
+  },
+  Docker: {
+    name: "Docker",
+    url: "https://www.docker.com/",
+    icon: LogosDockerIcon
+  },
+  Kubernetes: {
+    name: "Kubernetes",
+    url: "https://kubernetes.io/",
+    icon: LogosKubernetes
+  },
+  Nginx: {
+    name: "Nginx",
+    url: "https://www.nginx.com/",
+    icon: LogosNginx
+  },
+  // Operating Systems
   Windows: {
     name: "Windows",
     url: "https://www.microsoft.com/en-us/windows",
@@ -200,6 +313,12 @@ export const technologies: Technologies = {
     name: "Linux",
     url: "https://www.linux.org/",
     icon: LogosLinuxTux
+  },
+  // Design
+  Figma: {
+    name: "Figma",
+    url: "https://www.figma.com/",
+    icon: LogosFigma
   }
 }
 
