@@ -27,7 +27,9 @@
         "technologies": [
           "JavaScript",
           "HTML",
-          "CSS"
+          "CSS",
+          "Git",
+          "GitHub"
         ]
       },
       {
@@ -40,15 +42,26 @@
           "Soportar e implementar nuevos requisitos para páginas web."
         ],
         "technologies": [
-          "React",
-          "Express",
           "JavaScript",
           "TypeScript",
+          "React",
           "HTML",
           "CSS",
           "SASS",
+          "StyledComponents",
           "TailwindCSS",
-          "Jest"
+          "Vite",
+          "Zustand",
+          "I18next",
+          "ReactHookForm",
+          "ReactRouter",
+          "Jest",
+          "Postman",
+          "Express",
+          "Git",
+          "GitHub",
+          "AWS",
+          "Figma"
         ]
       },
       {
@@ -60,11 +73,18 @@
           "Desarrollar módulos para un Dashboard implementando una arquitectura Hexagonal"
         ],
         "technologies": [
-          "React",
           "TypeScript",
+          "React",
           "HTML",
           "StyledComponents",
-          "TailwindCSS"
+          "TailwindCSS",
+          "Vite",
+          "Zustand",
+          "ReactHookForm",
+          "ReactRouter",
+          "Postman",
+          "Git",
+          "GitHub"
         ]
       },
       {
@@ -76,12 +96,18 @@
           "Desarrollar página web para el control y gestión de finanzas."
         ],
         "technologies": [
-          "React",
           "JavaScript",
+          "React",
           "HTML",
           "CSS",
           "SASS",
-          "MSW"
+          "Vite",
+          "ReactHookForm",
+          "ReactRouter",
+          "MSW",
+          "Postman",
+          "Git",
+          "GitHub"
         ]
       },
       {
@@ -98,20 +124,28 @@
           "Soportar páginas web."
         ],
         "technologies": [
-          "React",
-          "Angular",
           "JavaScript",
           "TypeScript",
-          "Redux",
+          "React",
+          "Angular",
           "HTML",
           "CSS",
           "SASS",
           "TailwindCSS",
+          "Vite",
+          "Redux",
+          "ChartJS",
+          "ReactHookForm",
+          "ReactRouter",
+          "Vitest",
+          "MSW",
+          "Postman",
           "Firebase",
           "OWASPZAP",
           "SonarQube",
-          "Vitest",
-          "MSW"
+          "Git",
+          "GitHub",
+          "Bitbucket"
         ]
       }
     ]
@@ -123,17 +157,24 @@
         "name": "Gest Fin",
         "description": "Proyecto de un sistema de gestión de ingresos y egresos",
         "technologies": [
-          "Nextjs",
-          "React",
           "TypeScript",
+          "React",
+          "Nextjs",
           "TailwindCSS",
           "ShadcnUi",
+          "Vite",
+          "ChartJS",
+          "Framer",
+          "Vitest",
+          "Postman",
           "Supabase",
-          "GraphQL",
-          "Apollo",
           "Auth0",
           "Prisma",
-          "Vitest"
+          "GraphQL",
+          "Apollo",
+          "Git",
+          "GitHub",
+          "Vercel"
         ],
         "repository": "https://github.com/Kalevins/gest-fin",
         "url": "https://gest-fin.vercel.app/"
@@ -142,11 +183,17 @@
         "name": "Your Music",
         "description": "Proyecto que consume la API de Spotify para mostrar las canciones de un artista y guardarlas en una lista de favoritos.",
         "technologies": [
-          "React",
-          "Vite",
           "JavaScript",
+          "React",
           "SASS",
-          "Vitest"
+          "Vite",
+          "Framer",
+          "ReactHookForm",
+          "ReactRouter",
+          "Vitest",
+          "Postman",
+          "Git",
+          "GitHub"
         ],
         "repository": "https://github.com/Kalevins/your-music",
         "url": "https://kalevins.github.io/your-music/"
@@ -155,10 +202,13 @@
         "name": "Crypto AES",
         "description": "Proyecto web que permite cifrar y descifrar mensajes utilizando el algoritmo AES",
         "technologies": [
-          "React",
-          "Vite",
           "JavaScript",
-          "CSS"
+          "React",
+          "Nodejs",
+          "Vite",
+          "CSS",
+          "Git",
+          "GitHub"
         ],
         "repository": "https://github.com/Kalevins/crypto-aes",
         "url": "https://kalevins.github.io/crypto-aes/"
@@ -167,10 +217,12 @@
         "name": "Game Search",
         "description": "Proyecto que consume la API de Twich para la búsqueda de videojuegos con Ajax.",
         "technologies": [
-          "React",
-          "MaterialUi",
           "JavaScript",
-          "SASS"
+          "React",
+          "SASS",
+          "MaterialUi",
+          "Git",
+          "GitHub"
         ],
         "repository": "https://github.com/Kalevins/game-search",
         "url": "https://kalevins.github.io/game-search/"
@@ -180,7 +232,9 @@
         "description": "Programa para simular la capa de invisibilidad de las películas de ficción de Harry Potter.",
         "technologies": [
           "Python",
-          "OpenCV"
+          "OpenCV",
+          "Git",
+          "GitHub"
         ],
         "repository": "https://github.com/Kalevins/invisibility-cloak",
         "url": ""
@@ -190,7 +244,9 @@
         "description": "Sistema de vigilancia mediante cámaras de seguridad inteligentes para escuelas.",
         "technologies": [
           "Python",
-          "OpenCV"
+          "OpenCV",
+          "Git",
+          "GitHub"
         ],
         "repository": "https://github.com/Kalevins/school-security",
         "url": ""
@@ -200,9 +256,25 @@
         "description": "Sistema inteligente de conteo vehicular en vías publicas.",
         "technologies": [
           "Cplusplus",
-          "Doxygen"
+          "Doxygen",
+          "Git",
+          "GitHub"
         ],
         "repository": "https://github.com/Kalevins/vehicle-count",
+        "url": ""
+      },
+      {
+        "name": "Congestion Control Algorithm",
+        "description": "Proyecto de un algoritmo de control de congestión en slices de redes 5G.",
+        "technologies": [
+          "Python",
+          "Git",
+          "GitHub",
+          "Docker",
+          "Kubernetes",
+          "Nginx"
+        ],
+        "repository": "https://github.com/Kalevins/congestion-control-drl-algorithm",
         "url": ""
       }
     ]
