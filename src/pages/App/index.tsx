@@ -174,7 +174,7 @@ export const App = () => {
                   duration: 1
                 }
               }}
-              className={styles.choiseTechnology}
+              className={styles.choiceTechnology}
             >
               <h1>{technologyActive.name}</h1>
               {technologyActive.icon({})}

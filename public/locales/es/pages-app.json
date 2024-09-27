@@ -145,7 +145,8 @@
           "SonarQube",
           "Git",
           "GitHub",
-          "Bitbucket"
+          "Bitbucket",
+          "Azure"
         ]
       }
     ]
@@ -178,6 +179,24 @@
         ],
         "repository": "https://github.com/Kalevins/gest-fin",
         "url": "https://gest-fin.vercel.app/"
+      },
+      {
+        "name": "Quickbet",
+        "description": "Proyecto que consume la API de TMDB para mostrar, filtrar y buscar películas, ademas de guardarlas en una lista de favoritos con registro de usuario.",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "Nextjs",
+          "CSS",
+          "Vite",
+          "Postman",
+          "Nestjs",
+          "Git",
+          "GitHub",
+          "Azure"
+        ],
+        "repository": "https://github.com/Kalevins/quickbet",
+        "url": "https://quickbet.vercel.app/"
       },
       {
         "name": "Your Music",
@@ -225,7 +244,7 @@
           "GitHub"
         ],
         "repository": "https://github.com/Kalevins/game-search",
-        "url": "https://kalevins.github.io/game-search/"
+        "url": ""
       },
       {
         "name": "Invisibility Cloak",
