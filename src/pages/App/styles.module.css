@@ -198,6 +198,7 @@
           gap: 10px;
           padding: 0 20px;
           justify-content: center;
+          overflow-y: auto;
         }
 
         .links {
@@ -252,7 +253,7 @@
       grid-template-rows: 1fr auto;
       gap: 40px;
 
-      .choiseTechnology {
+      .choiceTechnology {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -285,7 +286,7 @@
       }
 
       @media screen and (width <= 768px) {
-        .choiseTechnology {
+        .choiceTechnology {
           display: none;
         }
       }

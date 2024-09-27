@@ -29,6 +29,7 @@ import {
   LogosMswIcon,
   LogosPostmanIcon,
   LogosExpress,
+  LogosNestjs,
   LogosFirebase,
   LogosSupabaseIcon,
   LogosAuth0Icon,
@@ -209,6 +210,11 @@ export const technologies: Technologies = {
     name: "Express",
     url: "https://expressjs.com/",
     icon: LogosExpress
+  },
+  Nestjs: {
+    name: "Nest.js",
+    url: "https://nestjs.com/",
+    icon: LogosNestjs
   },
   Firebase: {
     name: "Firebase",
