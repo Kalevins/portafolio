@@ -219,6 +219,7 @@
             color: var(--color-white);
             transition: background-color 0.5s, color 0.5s;
             box-sizing: border-box;
+            cursor: pointer;
 
             > svg {
               width: 20px;

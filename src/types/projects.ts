@@ -3,6 +3,11 @@ export interface Project {
   date: string;
   description: string;
   technologies: string[];
-  repository: string;
+  repositories: Repositories;
   url: string;
+}
+
+export interface Repositories {
+  front: string;
+  back: string;
 }

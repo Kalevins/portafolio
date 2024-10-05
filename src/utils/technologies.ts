@@ -13,6 +13,7 @@ import {
   VscodeIconsFileTypeStyled,
   LogosTailwindcssIcon,
   LogosMaterialUi,
+  LogosBootstrap,
   SimpleIconsShadcnui,
   LogosVitejs,
   LogosRedux,
@@ -26,6 +27,7 @@ import {
   VscodeIconsFileTypeDoxygen,
   LogosVitest,
   LogosJest,
+  LogosKarma,
   LogosMswIcon,
   LogosPostmanIcon,
   LogosExpress,
@@ -128,6 +130,11 @@ export const technologies: Technologies = {
     url: "https://material-ui.com/",
     icon: LogosMaterialUi
   },
+  Bootstrap: {
+    name: "Bootstrap",
+    url: "https://getbootstrap.com/",
+    icon: LogosBootstrap
+  },
   ShadcnUi: {
     name: "Shadcn UI",
     url: "https://ui.shadcn.com/",
@@ -194,6 +201,11 @@ export const technologies: Technologies = {
     name: "Jest",
     url: "https://jestjs.io/",
     icon: LogosJest
+  },
+  Karma: {
+    name: "Karma",
+    url: "https://karma-runner.github.io/",
+    icon: LogosKarma
   },
   MSW: {
     name: "MSW",

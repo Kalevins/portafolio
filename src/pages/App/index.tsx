@@ -151,7 +151,8 @@ export const App = () => {
                   ))}
                 </div>
                 <div className={styles.links}>
-                  {project?.repository && <a href={project.repository} target="_blank" rel="noreferrer"><GrommetIconsGithub/></a>}
+                  {project?.repositories?.front && <a href={project.repositories.front} target="_blank" rel="noreferrer"><GrommetIconsGithub/></a>}
+                  {project?.repositories?.back && <a href={project.repositories.back} target="_blank" rel="noreferrer"><GrommetIconsGithub/></a>}
                   {project?.url && <a href={project.url} target="_blank" rel="noreferrer"><MaterialSymbolsWebAsset/></a>}
                 </div>
               </div>

@@ -178,7 +178,10 @@
           "GitHub",
           "Vercel"
         ],
-        "repository": "https://github.com/Kalevins/gest-fin",
+        "repositories": {
+          "front": "https://github.com/Kalevins/gest-fin",
+          "back": ""
+        },
         "url": "https://gest-fin.vercel.app/"
       },
       {
@@ -196,7 +199,10 @@
           "GitHub",
           "Azure"
         ],
-        "repository": "https://github.com/Kalevins/quickbet",
+        "repositories": {
+          "front": "https://github.com/Kalevins/quickbet",
+          "back": "https://github.com/Kalevins/quickbet-backend"
+        },
         "url": "https://quickbet.vercel.app/"
       },
       {
@@ -215,8 +221,30 @@
           "Git",
           "GitHub"
         ],
-        "repository": "https://github.com/Kalevins/your-music",
+        "repositories": {
+          "front": "https://github.com/Kalevins/your-music",
+          "back": ""
+        },
         "url": "https://kalevins.github.io/your-music/"
+      },
+      {
+        "name": "My Search",
+        "description": "Simple project that allows you to search for a client by their identity card. You can see the detail of each client.",
+        "technologies": [
+          "TypeScript",
+          "Angular",
+          "CSS",
+          "Bootstrap",
+          "Karma",
+          "MSW",
+          "Git",
+          "GitHub"
+        ],
+        "repositories": {
+          "front": "https://github.com/Kalevins/my-search",
+          "back": ""
+        },
+        "url": "https://kalevins.github.io/my-search/"
       },
       {
         "name": "Crypto AES",
@@ -230,7 +258,10 @@
           "Git",
           "GitHub"
         ],
-        "repository": "https://github.com/Kalevins/crypto-aes",
+        "repositories": {
+          "front": "https://github.com/Kalevins/crypto-aes",
+          "back": ""
+        },
         "url": "https://kalevins.github.io/crypto-aes/"
       },
       {
@@ -244,7 +275,10 @@
           "Git",
           "GitHub"
         ],
-        "repository": "https://github.com/Kalevins/game-search",
+        "repositories": {
+          "front": "https://github.com/Kalevins/game-search",
+          "back": ""
+        },
         "url": ""
       },
       {
@@ -256,7 +290,10 @@
           "Git",
           "GitHub"
         ],
-        "repository": "https://github.com/Kalevins/invisibility-cloak",
+        "repositories": {
+          "front": "https://github.com/Kalevins/invisibility-cloak",
+          "back": ""
+        },
         "url": ""
       },
       {
@@ -268,7 +305,10 @@
           "Git",
           "GitHub"
         ],
-        "repository": "https://github.com/Kalevins/school-security",
+        "repositories": {
+          "front": "https://github.com/Kalevins/school-security",
+          "back": ""
+        },
         "url": ""
       },
       {
@@ -280,7 +320,10 @@
           "Git",
           "GitHub"
         ],
-        "repository": "https://github.com/Kalevins/vehicle-count",
+        "repositories": {
+          "front": "https://github.com/Kalevins/vehicle-count",
+          "back": ""
+        },
         "url": ""
       },
       {
@@ -294,7 +337,10 @@
           "Kubernetes",
           "Nginx"
         ],
-        "repository": "https://github.com/Kalevins/congestion-control-drl-algorithm",
+        "repositories": {
+          "front": "https://github.com/Kalevins/congestion-control-drl-algorithm",
+          "back": ""
+        },
         "url": ""
       }
     ]
