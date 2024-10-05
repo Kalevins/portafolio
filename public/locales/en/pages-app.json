@@ -342,7 +342,26 @@
           "back": ""
         },
         "url": ""
-      }
+      },
+      {
+        "name": "Portfolio",
+        "description": "This portfolio",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "CSS",
+          "Vite",
+          "Framer",
+          "I18next",
+          "Git",
+          "GitHub"
+        ],
+        "repositories": {
+          "front": "https://github.com/Kalevins/portafolio",
+          "back": ""
+        },
+        "url": "https://kalevin.dev/"
+       }
     ]
   },
   "card4": {
