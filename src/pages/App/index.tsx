@@ -1,10 +1,11 @@
 import { useCallback, useContext, useEffect, useRef, useState } from 'react'
 import { motion, useScroll } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
+import type { ReactElement } from 'react'
 
 import { Cards } from '@/layouts'
 import { Footer, Header, Scrollbar, Card, AnimatedText, Timeline } from '@/components'
-import { Experience, Project, Technology } from '@/types'
+import { Experience, Experiences, Positions, Projects, Technology } from '@/types'
 import { groupExperiencesByDate, technologies } from '@/utils'
 import { GrommetIconsGithub, MaterialSymbolsWebAsset } from '@/assets/icons'
 import { MenuContext } from '@/contexts'
@@ -16,8 +17,8 @@ import card4Image from '@/assets/images/card4.webp'
 import card5Image from '@/assets/images/card5.webp'
 import styles from './styles.module.css'
 
-export const App = () => {
-  const { t } = useTranslation(["pages-app"])
+export const App = (): ReactElement => {
+  const { t } = useTranslation(["pagesApp"])
   const ref = useRef<HTMLDivElement | null>(null);
   const { scrollYProgress } = useScroll({ container: ref });
   const { selected } = useContext(MenuContext);
@@ -36,9 +37,9 @@ export const App = () => {
     icon: () => <></>
   });
   const cards = 4;
-  const positions = t("card1.title.positions")
-  const experiences = groupExperiencesByDate(t("card2.experience") as unknown as Experience[])
-  const projects = t("card3.projects") as unknown as Project[];
+  const positions = t("card1.title.positions") as Positions;
+  const experiences = groupExperiencesByDate(t("card2.experience") as Experiences)
+  const projects = t("card3.projects") as Projects;
 
   useEffect(() => {
     setTechnologyActive(technologies[Object.keys(technologies)[Math.floor(Math.random() * Object.keys(technologies).length)]]);
@@ -117,10 +118,10 @@ export const App = () => {
                   <div
                     key={index}
                     className={styles.technology}
-                    onClick={() => window.open(technologies[technology]?.url, '_blank')}
+                    onClick={() => window.open(technologies[technology].url, '_blank')}
                   >
-                    {technologies[technology]?.icon({style: {width: '40px', height: '40px'}})}
-                    <p>{technologies[technology]?.name}</p>
+                    {technologies[technology].icon({style: {width: '40px', height: '40px'}})}
+                    <p>{technologies[technology].name}</p>
                   </div>
                 ))}
               </div>
@@ -143,10 +144,10 @@ export const App = () => {
                     <div
                       key={index}
                       className={styles.technology}
-                      onClick={() => window.open(technologies[technology]?.url, '_blank')}
+                      onClick={() => window.open(technologies[technology].url, '_blank')}
                     >
-                      {technologies[technology]?.icon({style: {width: '40px', height: '40px'}})}
-                      <p>{technologies[technology]?.name}</p>
+                      {technologies[technology].icon({style: {width: '40px', height: '40px'}})}
+                      <p>{technologies[technology].name}</p>
                     </div>
                   ))}
                 </div>
@@ -189,7 +190,7 @@ export const App = () => {
                   onClick={() => window.open(technology.url, '_blank')}
                   onMouseEnter={() => setTechnologyActive(technology)}
                 >
-                  {technology?.icon({style: {width: '40px', height: '40px'}})}
+                  {technology.icon({style: {width: '40px', height: '40px'}})}
                 </div>
               ))}
             </div>

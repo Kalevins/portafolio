@@ -1,9 +1,10 @@
-import { useState, useEffect, FC } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import type { ReactElement } from 'react';
 
 import { Props } from './types';
 
-export const AnimatedText: FC<Props> = ({ texts }) => {
+export const AnimatedText = ({ texts }: Props): ReactElement => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {

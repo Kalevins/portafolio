@@ -1,13 +1,14 @@
-import { FC, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import type { ReactElement } from 'react';
 
 import { stringDate } from '@/utils';
 
 import { Props } from './types';
 import styles from './styles.module.css';
 
-export const Timeline: FC<Props> = ({ experiences, handleExperienceActive }) => {
-  const { t, i18n } = useTranslation('components-timeline');
+export const Timeline = ({ experiences, handleExperienceActive }: Props): ReactElement => {
+  const { t, i18n } = useTranslation('componentsTimeline');
   const [isActive, setIsActive] = useState<number>(0);
 
   useEffect(() => {
@@ -18,7 +19,7 @@ export const Timeline: FC<Props> = ({ experiences, handleExperienceActive }) => 
     <div className={styles.timeline}>
       {experiences.map((experience, index) => (
         <div key={index} className={styles.experienceContainer}>
-          <div className={`${styles.line} ${styles[`level${experience.level}`]}`} id={experiences[index - 1]?.level !== experience.level ? styles.first : experiences[index + 1]?.level !== experience.level ? styles.last : ''}/>
+          <div className={`${styles.line} ${styles[`level${experience.level}`]}`} id={experiences[index - 1]?.level !== experience.level ? styles.first : experiences[index + 1].level !== experience.level ? styles.last : ''}/>
           <div
             className={styles.experience}
             id={isActive === index ? styles.active : ''}

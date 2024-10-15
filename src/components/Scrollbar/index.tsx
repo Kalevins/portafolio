@@ -1,11 +1,12 @@
-import { FC, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
+import type { ReactElement } from 'react';
 
 import styles from './styles.module.css';
 import { useMotionValueEvent } from 'framer-motion';
 
 import { Props } from './types';
 
-export const Scrollbar: FC<Props> = ({ scrollYProgress, cards, handleClickScroll }) => {
+export const Scrollbar = ({ scrollYProgress, cards, handleClickScroll }: Props): ReactElement => {
   const [isActive, setIsActive] = useState<number>(0)
   const buttonsRef = useRef<(HTMLButtonElement | null)[]>([]);
 

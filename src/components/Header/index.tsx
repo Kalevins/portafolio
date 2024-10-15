@@ -1,6 +1,7 @@
-import { FC, useContext } from 'react';
+import { useContext } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import type { ReactElement } from 'react';
 
 import { MenuContext } from '@/contexts';
 import { GrommetIconsGithub, GrommetIconsLinkedinOption, GrommetIconsInstagram } from '@/assets/icons';
@@ -63,9 +64,9 @@ const variantsLi = {
   }
 };
 
-export const Header: FC = () => {
+export const Header = (): ReactElement => {
   const { isOpen, selected, toggleMenu, selectMenu } = useContext(MenuContext);
-  const { t } = useTranslation(["components-header"]);
+  const { t } = useTranslation(["componentsHeader"]);
 
   const itemsMenu = t("menu") as unknown as string[];
 

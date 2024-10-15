@@ -1,6 +1,6 @@
-import { Experience } from "@/types";
+import { Experiences } from "@/types";
 
 export interface Props {
-  experiences: Experience[];
+  experiences: Experiences;
   handleExperienceActive: (index: number) => void;
 }

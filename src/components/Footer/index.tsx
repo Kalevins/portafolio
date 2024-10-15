@@ -1,9 +1,9 @@
-import { FC } from 'react';
 import { useTranslation } from 'react-i18next';
+import type { ReactElement } from 'react';
 
 import styles from './styles.module.css';
 
-export const Footer: FC = () => {
+export const Footer = (): ReactElement => {
   const { i18n } = useTranslation();
 
   const languages = [

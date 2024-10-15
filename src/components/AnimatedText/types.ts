@@ -1,3 +1,5 @@
+import { Positions } from "@/types";
+
 export interface Props {
-  texts: string[] | string;
+  texts: Positions
 }

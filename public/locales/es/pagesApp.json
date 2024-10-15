@@ -197,13 +197,35 @@
           "Nestjs",
           "Git",
           "GitHub",
-          "Azure"
+          "Azure",
+          "Vercel"
         ],
         "repositories": {
           "front": "https://github.com/Kalevins/quickbet",
           "back": "https://github.com/Kalevins/quickbet-backend"
         },
         "url": "https://quickbet.vercel.app/"
+      },
+      {
+        "name": "Pokedex",
+        "description": "Proyecto que consume la API de Pokemon para mostrar los pokemones y guardarlos en una lista de favoritos.",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "CSS",
+          "Vite",
+          "ReactRouter",
+          "GraphQL",
+          "Apollo",
+          "Git",
+          "GitHub",
+          "GitHubPages"
+        ],
+        "repositories": {
+          "front": "https://github.com/Kalevins/pokedex",
+          "back": ""
+        },
+        "url": "https://kalevins.github.io/pokedex/"
       },
       {
         "name": "Your Music",
@@ -219,7 +241,8 @@
           "Vitest",
           "Postman",
           "Git",
-          "GitHub"
+          "GitHub",
+          "GitHubPages"
         ],
         "repositories": {
           "front": "https://github.com/Kalevins/your-music",
@@ -238,7 +261,8 @@
           "Karma",
           "MSW",
           "Git",
-          "GitHub"
+          "GitHub",
+          "GitHubPages"
         ],
         "repositories": {
           "front": "https://github.com/Kalevins/my-search",
@@ -253,10 +277,11 @@
           "JavaScript",
           "React",
           "Nodejs",
-          "Vite",
           "CSS",
+          "Vite",
           "Git",
-          "GitHub"
+          "GitHub",
+          "GitHubPages"
         ],
         "repositories": {
           "front": "https://github.com/Kalevins/crypto-aes",
@@ -354,7 +379,8 @@
           "Framer",
           "I18next",
           "Git",
-          "GitHub"
+          "GitHub",
+          "GitHubPages"
         ],
         "repositories": {
           "front": "https://github.com/Kalevins/portafolio",

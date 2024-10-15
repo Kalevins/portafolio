@@ -47,6 +47,7 @@ import {
   LogosAws,
   LogosMicrosoftAzure,
   LogosVercelIcon,
+  LogosGithubOctocat,
   LogosDockerIcon,
   LogosKubernetes,
   LogosNginx,
@@ -305,6 +306,11 @@ export const technologies: Technologies = {
     name: "Vercel",
     url: "https://vercel.com/",
     icon: LogosVercelIcon
+  },
+  GitHubPages: {
+    name: "GitHub Pages",
+    url: "https://pages.github.com/",
+    icon: LogosGithubOctocat
   },
   Docker: {
     name: "Docker",

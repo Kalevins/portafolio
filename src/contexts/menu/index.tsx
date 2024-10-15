@@ -1,4 +1,5 @@
-import { FC, createContext, useState, useCallback } from "react";
+import { createContext, useState, useCallback } from "react";
+import type { ReactElement } from "react";
 
 import { Props } from "./types";
 
@@ -9,7 +10,7 @@ export const MenuContext = createContext({
   selectMenu: (index: number) => {index}
 });
 
-export const MenuProvider: FC<Props> = ({ children }) => {
+export const MenuProvider = ({ children }: Props): ReactElement => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const [selected, setSelected] = useState<number>(0);
 

@@ -1,11 +1,11 @@
-import { FC } from 'react';
+import type { ReactElement } from 'react';
 
 import { Sidebar } from '@/components';
 
 import { Props } from './types';
 import styles from './styles.module.css';
 
-export const Card: FC<Props> = ({ title, imgBackground, children }) => {
+export const Card = ({ title, imgBackground, children }: Props): ReactElement => {
   return  (
     <section className={styles.card}>
       {imgBackground && (

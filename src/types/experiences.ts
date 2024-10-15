@@ -5,5 +5,7 @@ export interface Experience {
   dateEnd: string;
   description: string[];
   technologies: string[];
-  level: number | undefined;
+  level: number;
 }
+
+export type Experiences = Experience[];
