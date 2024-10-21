@@ -1,12 +1,15 @@
 import {
+  // Languages
   LogosJavascript,
   LogosTypescriptIcon,
   LogosPython,
   LogosCPlusplus,
+  // Frameworks
   LogosReact,
   LogosAngularIcon,
   LogosNextjsIcon,
   LogosNodejsIconAlt,
+  // Frontend
   LogosHtml5,
   LogosCss3,
   LogosSass,
@@ -15,6 +18,7 @@ import {
   LogosMaterialUi,
   LogosBootstrap,
   SimpleIconsShadcnui,
+  // Libraries
   LogosVitejs,
   LogosRedux,
   LogosZustand,
@@ -25,11 +29,13 @@ import {
   LogosReactRouter,
   LogosOpencv,
   VscodeIconsFileTypeDoxygen,
+  // Testing
   LogosVitest,
   LogosJest,
   LogosKarma,
   LogosMswIcon,
   LogosPostmanIcon,
+  // Backend
   LogosExpress,
   LogosNestjs,
   LogosFirebase,
@@ -38,12 +44,15 @@ import {
   LogosPrisma,
   LogosGraphql,
   LogosApollostack,
+  // QA
   SimpleIconsZap,
   LogosSonarqube,
+  // Version Control
   LogosGitIcon,
   LogosGithubIcon,
   LogosBitbucket,
   LogosGithubCopilot,
+  // Cloud
   LogosAws,
   LogosMicrosoftAzure,
   LogosVercelIcon,
@@ -51,8 +60,10 @@ import {
   LogosDockerIcon,
   LogosKubernetes,
   LogosNginx,
+  // Operating Systems
   LogosMicrosoftWindowsIcon,
   LogosLinuxTux,
+  // Design
   LogosFigma,
 } from "@/assets/icons"
 import { Technologies } from "@/types"
@@ -346,5 +357,72 @@ export const technologies: Technologies = {
   }
 }
 
-
+export const technologiesOrder = [
+  // Languages
+  "JavaScript",
+  "TypeScript",
+  "Python",
+  "Cplusplus",
+  // Frameworks
+  "React",
+  "Angular",
+  "Nextjs",
+  "Nodejs",
+  // Frontend
+  "HTML",
+  "CSS",
+  "SASS",
+  "StyledComponents",
+  "TailwindCSS",
+  "MaterialUi",
+  "Bootstrap",
+  "ShadcnUi",
+  // Libraries
+  "Vite",
+  "Redux",
+  "Zustand",
+  "ChartJS",
+  "Framer",
+  "I18next",
+  "ReactHookForm",
+  "ReactRouter",
+  "OpenCV",
+  "Doxygen",
+  // Testing
+  "Vitest",
+  "Jest",
+  "Karma",
+  "MSW",
+  "Postman",
+  // Backend
+  "Express",
+  "Nestjs",
+  "Firebase",
+  "Supabase",
+  "Auth0",
+  "Prisma",
+  "GraphQL",
+  "Apollo",
+  // QA
+  "OWASPZAP",
+  "SonarQube",
+  // Version Control
+  "Git",
+  "GitHub",
+  "Bitbucket",
+  "GitHubCopilot",
+  // Cloud
+  "AWS",
+  "Azure",
+  "Vercel",
+  "GitHubPages",
+  "Docker",
+  "Kubernetes",
+  "Nginx",
+  // Operating Systems
+  "Windows",
+  "Linux",
+  // Design
+  "Figma",
+]
 

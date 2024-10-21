@@ -1,10 +1,13 @@
 import { useTranslation } from 'react-i18next';
-import type { ReactElement } from 'react';
+import { useContext, type ReactElement } from 'react';
+
+import { MenuContext } from '@/contexts';
 
 import styles from './styles.module.css';
 
 export const Footer = (): ReactElement => {
   const { i18n } = useTranslation();
+  const { isOpen } = useContext(MenuContext);
 
   const languages = [
     {
@@ -25,7 +28,7 @@ export const Footer = (): ReactElement => {
           <button
             key={code}
             onClick={() => i18n.changeLanguage(code)}
-            className={styles.transparent}
+            className={`${styles.transparent} ${isOpen ? styles.open : styles.closed}`}
             id={i18n.language === code ? styles.active : ''}
           >
             {name}

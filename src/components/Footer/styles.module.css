@@ -22,6 +22,10 @@
       &:hover, &#active{
         color: var(--color-primary);
       }
+
+      &.open {
+        color: var(--color-black);
+      }
     }
   }
 }

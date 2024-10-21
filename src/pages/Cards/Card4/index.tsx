@@ -5,7 +5,7 @@ import type { ReactElement } from 'react'
 
 import { Card, TechnologyCircle } from '@/components'
 import { Technology } from '@/types'
-import { technologies } from '@/utils'
+import { technologies, technologiesOrder } from '@/utils'
 
 import cardImage from '@/assets/images/card5.webp'
 import styles from './styles.module.css'
@@ -46,19 +46,22 @@ export const Card4 = (): ReactElement => {
           {technologyActive.icon({})}
         </motion.div>
         <div className={styles.technologies}>
-          {Object.values(technologies).map((technology, index) => (
-            <div
-              key={index}
-              onMouseEnter={() => setTechnologyActive(technology)}
-            >
-              <TechnologyCircle
-                name={""}
-                url={technology.url}
-                icon={technology.icon}
-                isActive={technology.name === technologyActive.name}
-              />
-            </div>
-          ))}
+          {technologiesOrder
+            .sort((a, b) => technologiesOrder.indexOf(a) - technologiesOrder.indexOf(b))
+            .map((technology, index) => (
+              <div
+                key={index}
+                onMouseEnter={() => setTechnologyActive(technologies[technology])}
+              >
+                <TechnologyCircle
+                  name={""}
+                  url={technologies[technology].url}
+                  icon={technologies[technology].icon}
+                  isActive={technologies[technology].name === technologyActive.name}
+                />
+              </div>
+            ))
+          }
         </div>
       </div>
     </Card>

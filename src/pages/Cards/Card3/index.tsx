@@ -3,7 +3,7 @@ import type { ReactElement } from 'react'
 
 import { Card, TechnologyCircle } from '@/components'
 import { Projects } from '@/types'
-import { technologies } from '@/utils'
+import { technologies, technologiesOrder } from '@/utils'
 import { GrommetIconsGithub, MaterialSymbolsWebAsset } from '@/assets/icons'
 
 import cardImage from '@/assets/images/card4.webp'
@@ -26,15 +26,18 @@ export const Card3 = (): ReactElement => {
               <p>{project.description}</p>
             </div>
             <div className={styles.technologies}>
-              {project.technologies.map((technology, index) => (
-                <TechnologyCircle
-                  key={index}
-                  name={technologies[technology].name}
-                  url={technologies[technology].url}
-                  icon={technologies[technology].icon}
-                  isActive={false}
-                />
-              ))}
+              {project.technologies
+                .sort((a, b) => technologiesOrder.indexOf(a) - technologiesOrder.indexOf(b))
+                .map((technology, index) => (
+                  <TechnologyCircle
+                    key={index}
+                    name={technologies[technology].name}
+                    url={technologies[technology].url}
+                    icon={technologies[technology].icon}
+                    isActive={false}
+                  />
+                ))
+              }
             </div>
             <div className={styles.links}>
               {project?.repositories?.front && <a href={project.repositories.front} target="_blank" rel="noreferrer"><GrommetIconsGithub/></a>}

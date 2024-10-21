@@ -5,7 +5,7 @@ import type { ReactElement } from 'react'
 
 import { Card, Timeline, TechnologyCircle } from '@/components'
 import { Experience, Experiences } from '@/types'
-import { groupExperiencesByDate, technologies } from '@/utils'
+import { groupExperiencesByDate, technologies, technologiesOrder } from '@/utils'
 
 import cardImage from '@/assets/images/card3.webp'
 import styles from './styles.module.css'
@@ -56,15 +56,18 @@ export const Card2 = (): ReactElement => {
             </ul>
           </div>
           <div className={styles.technologies}>
-            {experienceActive.technologies.map((technology, index) => (
-              <TechnologyCircle
-                key={index}
-                name={technologies[technology].name}
-                url={technologies[technology].url}
-                icon={technologies[technology].icon}
-                isActive={false}
-              />
-            ))}
+            {experienceActive.technologies
+              .sort((a, b) => technologiesOrder.indexOf(a) - technologiesOrder.indexOf(b))
+              .map((technology, index) => (
+                <TechnologyCircle
+                  key={index}
+                  name={technologies[technology].name}
+                  url={technologies[technology].url}
+                  icon={technologies[technology].icon}
+                  isActive={false}
+                />
+              ))
+            }
           </div>
         </motion.div>
       </div>
