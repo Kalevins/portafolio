@@ -1,0 +1,139 @@
+{
+  "sidebar": "Experience",
+  "present": "Present",
+  "experience": [
+    {
+      "company": "Independent (Freelancer)",
+      "position": "Full Stack Developer",
+      "dateInit": "2021-08",
+      "dateEnd": "2021-10",
+      "description": [
+        "Develop an independent website to provide an online radio service."
+      ],
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Git",
+        "GitHub"
+      ]
+    },
+    {
+      "company": "EOL Solutions SAS",
+      "position": "Full Stack Developer",
+      "dateInit": "2022-02",
+      "dateEnd": "2023-07",
+      "description": [
+        "Develop and support an Ecommerce.",
+        "Support and implement new requirements for websites."
+      ],
+      "technologies": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "HTML",
+        "CSS",
+        "SASS",
+        "StyledComponents",
+        "TailwindCSS",
+        "Vite",
+        "Zustand",
+        "I18next",
+        "ReactHookForm",
+        "ReactRouter",
+        "Jest",
+        "Postman",
+        "Express",
+        "Git",
+        "GitHub",
+        "AWS",
+        "Figma"
+      ]
+    },
+    {
+      "company": "BPO2B Global Inc (Freelancer)",
+      "position": "Front End Developer",
+      "dateInit": "2023-08",
+      "dateEnd": "2023-09",
+      "description": [
+        "Develop modules for a Dashboard implementing a Hexagonal architecture."
+      ],
+      "technologies": [
+        "TypeScript",
+        "React",
+        "HTML",
+        "StyledComponents",
+        "TailwindCSS",
+        "Vite",
+        "Zustand",
+        "ReactHookForm",
+        "ReactRouter",
+        "Postman",
+        "Git",
+        "GitHub"
+      ]
+    },
+    {
+      "company": "ValCredit (Freelancer)",
+      "position": "Front End Developer",
+      "dateInit": "2023-10",
+      "dateEnd": "2023-12",
+      "description": [
+        "Develop a website for financial control and management."
+      ],
+      "technologies": [
+        "JavaScript",
+        "React",
+        "HTML",
+        "CSS",
+        "SASS",
+        "Vite",
+        "ReactHookForm",
+        "ReactRouter",
+        "MSW",
+        "Postman",
+        "Git",
+        "GitHub"
+      ]
+    },
+    {
+      "company": "Teleperformance",
+      "position": "Senior Front End Developer",
+      "dateInit": "2021-10",
+      "dateEnd": "",
+      "description": [
+        "Develop an internal corporate educational system for client training with the company's courses.",
+        "Develop a Content Management System (CMS) with Dashboard, Forecast, and Apps modules.",
+        "Develop application emulation systems that allow appropriation and easy use in a non-productive environment.",
+        "Develop file management, permissions, and tracking applications.",
+        "Resolve and adapt applications related to QA and security issues.",
+        "Support websites."
+      ],
+      "technologies": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Angular",
+        "HTML",
+        "CSS",
+        "SASS",
+        "TailwindCSS",
+        "Vite",
+        "Redux",
+        "ChartJS",
+        "ReactHookForm",
+        "ReactRouter",
+        "Vitest",
+        "MSW",
+        "Postman",
+        "Firebase",
+        "OWASPZAP",
+        "SonarQube",
+        "Git",
+        "GitHub",
+        "Bitbucket",
+        "Azure"
+      ]
+    }
+  ]
+}

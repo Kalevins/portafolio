@@ -11,7 +11,7 @@ import cardImage from '@/assets/images/card3.webp'
 import styles from './styles.module.css'
 
 export const Card2 = (): ReactElement => {
-  const { t } = useTranslation(["pagesApp"])
+  const { t } = useTranslation(["card2"])
   const [experienceActive, setExperienceActive] = useState<Experience>({
     position: "",
     company: "",
@@ -21,7 +21,7 @@ export const Card2 = (): ReactElement => {
     technologies: [],
     level: 0
   });
-  const experiences = groupExperiencesByDate(t("card2.experience") as Experiences)
+  const experiences = groupExperiencesByDate(t("experience") as Experiences)
 
   const handleExperienceActive = useCallback((index: number) => {
     setExperienceActive(experiences[index]);
@@ -29,7 +29,7 @@ export const Card2 = (): ReactElement => {
 
   return (
     <Card
-      title={t("card2.sidebar")}
+      title={t("sidebar")}
       imgBackground={cardImage}
     >
       <div className={styles.container}>

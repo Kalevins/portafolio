@@ -8,18 +8,18 @@ import cardImage from '@/assets/images/card1.webp'
 import styles from './styles.module.css'
 
 export const Card1 = (): ReactElement => {
-  const { t } = useTranslation(["pagesApp"])
-  const positions = t("card1.title.positions") as Positions;
+  const { t } = useTranslation(["card1"])
+  const positions = t("title.positions") as Positions;
 
   return (
     <Card
-      title={t("card1.sidebar")}
+      title={t("sidebar")}
       imgBackground={cardImage}
     >
       <div className={styles.container}>
-        <small>{t("card1.subtitle")}</small>
+        <small>{t("subtitle")}</small>
         <div className={styles.textContainer}>
-          <h1><span>{t("card1.title.hello")}</span>{t("card1.title.name")}</h1>
+          <h1><span>{t("title.hello")}</span>{t("title.name")}</h1>
           <div>
             <AnimatedText texts={positions} />
           </div>

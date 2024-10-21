@@ -1,0 +1,14 @@
+{
+  "sidebar": "Introducción",
+  "subtitle": "Bienvenido a mi portafolio",
+  "title": {
+    "hello": "Hola, ",
+    "name": "soy Kevin Muñoz Rengifo",
+    "positions": [
+      "Desarrollador Front End",
+      "Desarrollador Back End",
+      "Desarrollador de Software",
+      "Ingeniero en Electrónica y Telecomunicaciones"
+    ]
+  }
+}

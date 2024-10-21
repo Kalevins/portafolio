@@ -10,12 +10,12 @@ import cardImage from '@/assets/images/card4.webp'
 import styles from './styles.module.css'
 
 export const Card3 = (): ReactElement => {
-  const { t } = useTranslation(["pagesApp"])
-  const projects = t("card3.projects") as Projects;
+  const { t } = useTranslation(["card3"])
+  const projects = t("projects") as Projects;
 
   return (
     <Card
-      title={t("card3.sidebar")}
+      title={t("sidebar")}
       imgBackground={cardImage}
     >
       <div className={styles.container}>

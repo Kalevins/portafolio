@@ -11,7 +11,7 @@ import cardImage from '@/assets/images/card5.webp'
 import styles from './styles.module.css'
 
 export const Card4 = (): ReactElement => {
-  const { t } = useTranslation(["pagesApp"])
+  const { t } = useTranslation(["card4"])
 
   const [technologyActive, setTechnologyActive] = useState<Technology>({
     name: "",
@@ -25,7 +25,7 @@ export const Card4 = (): ReactElement => {
 
   return (
     <Card
-      title={t("card4.sidebar")}
+      title={t("sidebar")}
       imgBackground={cardImage}
     >
       <div className={styles.container}>

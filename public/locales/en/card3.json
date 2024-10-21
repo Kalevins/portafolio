@@ -1,0 +1,238 @@
+{
+  "sidebar": "Projects",
+  "projects": [
+    {
+      "name": "Gest Fin",
+      "description": "Income and expense management system project",
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Nextjs",
+        "TailwindCSS",
+        "ShadcnUi",
+        "Vite",
+        "ChartJS",
+        "Framer",
+        "Vitest",
+        "Postman",
+        "Supabase",
+        "Auth0",
+        "Prisma",
+        "GraphQL",
+        "Apollo",
+        "Git",
+        "GitHub",
+        "Vercel"
+      ],
+      "repositories": {
+        "front": "https://github.com/Kalevins/gest-fin",
+        "back": ""
+      },
+      "url": "https://gest-fin.vercel.app/"
+    },
+    {
+      "name": "Quickbet",
+      "description": "Project that consumes the TMDB API to show, filter and search for movies, as well as save them to a favorites list with user registration.",
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Nextjs",
+        "CSS",
+        "Vite",
+        "Postman",
+        "Nestjs",
+        "Git",
+        "GitHub",
+        "Azure",
+        "Vercel"
+      ],
+      "repositories": {
+        "front": "https://github.com/Kalevins/quickbet",
+        "back": "https://github.com/Kalevins/quickbet-backend"
+      },
+      "url": "https://quickbet.vercel.app/"
+    },
+    {
+      "name": "Pokedex",
+      "description": "Project that consumes the Pokemon API to show the pokemons and save them to a favorites list.",
+      "technologies": [
+        "TypeScript",
+        "React",
+        "CSS",
+        "Vite",
+        "ReactRouter",
+        "GraphQL",
+        "Apollo",
+        "Git",
+        "GitHub",
+        "GitHubPages"
+      ],
+      "repositories": {
+        "front": "https://github.com/Kalevins/pokedex",
+        "back": ""
+      },
+      "url": "https://kalevins.github.io/pokedex/"
+    },
+    {
+      "name": "Your Music",
+      "description": "Project that consumes the Spotify API to show an artist's songs and save them to a favorites list.",
+      "technologies": [
+        "JavaScript",
+        "React",
+        "SASS",
+        "Vite",
+        "Framer",
+        "ReactHookForm",
+        "ReactRouter",
+        "Vitest",
+        "Postman",
+        "Git",
+        "GitHub",
+        "GitHubPages"
+      ],
+      "repositories": {
+        "front": "https://github.com/Kalevins/your-music",
+        "back": ""
+      },
+      "url": "https://kalevins.github.io/your-music/"
+    },
+    {
+      "name": "My Search",
+      "description": "Simple project that allows you to search for a client by their identity card. You can see the detail of each client.",
+      "technologies": [
+        "TypeScript",
+        "Angular",
+        "CSS",
+        "Bootstrap",
+        "Karma",
+        "MSW",
+        "Git",
+        "GitHub",
+        "GitHubPages"
+      ],
+      "repositories": {
+        "front": "https://github.com/Kalevins/my-search",
+        "back": ""
+      },
+      "url": "https://kalevins.github.io/my-search/"
+    },
+    {
+      "name": "Crypto AES",
+      "description": "Web project that allows encrypting and decrypting messages using the AES algorithm",
+      "technologies": [
+        "JavaScript",
+        "React",
+        "Nodejs",
+        "CSS",
+        "Vite",
+        "Git",
+        "GitHub",
+        "GitHubPages"
+      ],
+      "repositories": {
+        "front": "https://github.com/Kalevins/crypto-aes",
+        "back": ""
+      },
+      "url": "https://kalevins.github.io/crypto-aes/"
+    },
+    {
+      "name": "Game Search",
+      "description": "Project that consumes the Twich API to search for video games with Ajax.",
+      "technologies": [
+        "JavaScript",
+        "React",
+        "SASS",
+        "MaterialUi",
+        "Git",
+        "GitHub"
+      ],
+      "repositories": {
+        "front": "https://github.com/Kalevins/game-search",
+        "back": ""
+      },
+      "url": ""
+    },
+    {
+      "name": "Invisibility Cloak",
+      "description": "Program to simulate the invisibility cloak from Harry Potter fiction movies.",
+      "technologies": [
+        "Python",
+        "OpenCV",
+        "Git",
+        "GitHub"
+      ],
+      "repositories": {
+        "front": "https://github.com/Kalevins/invisibility-cloak",
+        "back": ""
+      },
+      "url": ""
+    },
+    {
+      "name": "School Security",
+      "description": "Intelligent surveillance system using smart security cameras for schools.",
+      "technologies": [
+        "Python",
+        "OpenCV",
+        "Git",
+        "GitHub"
+      ],
+      "repositories": {
+        "front": "https://github.com/Kalevins/school-security",
+        "back": ""
+      },
+      "url": ""
+    },
+    {
+      "name": "Vehicle Count",
+      "description": "Intelligent vehicle counting system on public roads.",
+      "technologies": [
+        "Cplusplus",
+        "Doxygen",
+        "Git",
+        "GitHub"
+      ],
+      "repositories": {
+        "front": "https://github.com/Kalevins/vehicle-count",
+        "back": ""
+      },
+      "url": ""
+    },
+    {
+      "name": "Congestion Control Algorithm",
+      "description": "5G network slice congestion control algorithm project.",
+      "technologies": [
+        "Python",
+        "Git",
+        "GitHub",
+        "Docker",
+        "Kubernetes",
+        "Nginx"
+      ],
+      "repositories": {
+        "front": "https://github.com/Kalevins/congestion-control-drl-algorithm",
+        "back": ""
+      },
+      "url": ""
+    },
+    {
+      "name": "Portfolio",
+      "description": "This portfolio",
+      "technologies": [
+        "TypeScript",
+        "React",
+        "CSS",
+        "Vite",
+        "Framer",
+        "I18next",
+        "Git",
+        "GitHub",
+        "GitHubPages"
+      ],
+      "repositories": {
+        "front": "https://github.com/Kalevins/portafolio",
+        "back": ""
+      },
+      "url": "https://kalevin.dev/"
+     }
+  ]
+}
