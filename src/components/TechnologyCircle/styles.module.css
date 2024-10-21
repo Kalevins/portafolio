@@ -1,0 +1,43 @@
+.technology {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: 2px solid var(--color-primary);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+
+  &:hover {
+    > p {
+      width: 40px;
+      height: 40px;
+      padding: 10px;
+      border: 2px solid var(--color-primary);
+      background-color: var(--color-primary);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  &#active {
+    background-color: var(--color-primary);
+  }
+
+  > p {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0;
+    width: 0;
+    color: var(--color-black);
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: width 0.5s, height 0.5s, padding 0.5s, background-color 0.5s, color 0.5s, box-shadow 0.5s;
+  }
+}

@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: auto;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  gap: 10%;
+  padding: 0 10%;
+
+  .textContainer {
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+
+      span {
+        color: var(--color-primary);
+      }
+    }
+
+    > div {
+      position: relative;
+      height: 58px;
+    }
+  }
+
+  .line {
+    width: 10%;
+    height: 2px;
+    background-color: var(--color-primary);
+  }
+}
