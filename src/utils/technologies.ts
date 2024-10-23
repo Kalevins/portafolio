@@ -19,12 +19,14 @@ import {
   LogosGithubOctocat,
   LogosGraphql,
   LogosHtml5,
+  LogosJava,
   LogosJavascript,
   LogosJest,
   LogosKarma,
   LogosKubernetes,
   LogosLinuxTux,
   LogosMaterialUi,
+  LogosMaven,
   LogosMicrosoftAzure,
   LogosMicrosoftWindowsIcon,
   LogosMswIcon,
@@ -32,6 +34,8 @@ import {
   LogosNextjsIcon,
   LogosNginx,
   LogosNodejsIconAlt,
+  LogosNpmIcon,
+  LogosPnpm,
   LogosOpencv,
   LogosPostmanIcon,
   LogosPrisma,
@@ -41,7 +45,9 @@ import {
   LogosRedux,
   LogosSass,
   LogosSonarqube,
+  LogosSpringIcon,
   LogosSupabaseIcon,
+  LogosSwagger,
   LogosTailwindcssIcon,
   LogosTypescriptIcon,
   LogosVercelIcon,
@@ -168,6 +174,11 @@ export const technologies: Technologies = {
     url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
     icon: LogosHtml5
   },
+  Java: {
+    name: "Java",
+    url: "https://dev.java/",
+    icon: LogosJava
+  },
   I18next: {
     name: "i18next",
     url: "https://www.i18next.com/",
@@ -203,6 +214,11 @@ export const technologies: Technologies = {
     url: "https://material-ui.com/",
     icon: LogosMaterialUi
   },
+  Maven: {
+    name: "Maven",
+    url: "https://maven.apache.org/",
+    icon: LogosMaven
+  },
   MSW: {
     name: "MSW",
     url: "https://mswjs.io/",
@@ -227,6 +243,16 @@ export const technologies: Technologies = {
     name: "Node.js",
     url: "https://nodejs.org/",
     icon: LogosNodejsIconAlt
+  },
+  Npm: {
+    name: "NPM",
+    url: "https://www.npmjs.com/",
+    icon: LogosNpmIcon
+  },
+  Pnpm: {
+    name: "PNPM",
+    url: "https://pnpm.io/",
+    icon: LogosPnpm
   },
   OpenCV: {
     name: "OpenCV",
@@ -288,6 +314,11 @@ export const technologies: Technologies = {
     url: "https://www.sonarqube.org/",
     icon: LogosSonarqube
   },
+  SpringBoot: {
+    name: "Spring Boot",
+    url: "https://spring.io/projects/spring-boot",
+    icon: LogosSpringIcon
+  },
   StyledComponents: {
     name: "Styled Components",
     url: "https://styled-components.com/",
@@ -297,6 +328,11 @@ export const technologies: Technologies = {
     name: "Supabase",
     url: "https://supabase.io/",
     icon: LogosSupabaseIcon
+  },
+  Swagger: {
+    name: "Swagger",
+    url: "https://swagger.io/",
+    icon: LogosSwagger
   },
   TailwindCSS: {
     name: "Tailwind CSS",
@@ -340,6 +376,7 @@ export const technologiesOrder = [
   "JavaScript",
   "TypeScript",
   "Python",
+  "Java",
   "Cplusplus",
   // Frameworks
   "Nodejs",
@@ -348,6 +385,7 @@ export const technologiesOrder = [
   "Nextjs",
   "Express",
   "Nestjs",
+  "SpringBoot",
   // Frontend
   "HTML",
   "CSS",
@@ -381,6 +419,7 @@ export const technologiesOrder = [
   "Prisma",
   "GraphQL",
   "Apollo",
+  "Swagger",
   // QA
   "OWASPZAP",
   "SonarQube",
@@ -388,6 +427,11 @@ export const technologiesOrder = [
   "Git",
   "GitHub",
   "Bitbucket",
+  // Package Managers
+  "Npm",
+  "Pnpm",
+  "Maven",
+  // IA
   "GitHubCopilot",
   // Cloud
   "AWS",

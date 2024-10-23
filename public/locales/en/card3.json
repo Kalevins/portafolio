@@ -5,24 +5,24 @@
       "name": "Gest Fin",
       "description": "Income and expense management system project",
       "technologies": [
-        "TypeScript",
-        "React",
-        "Nextjs",
-        "TailwindCSS",
-        "ShadcnUi",
-        "Vite",
+        "Apollo",
+        "Auth0",
         "ChartJS",
         "Framer",
-        "Vitest",
-        "Postman",
-        "Supabase",
-        "Auth0",
-        "Prisma",
-        "GraphQL",
-        "Apollo",
         "Git",
         "GitHub",
-        "Vercel"
+        "GraphQL",
+        "Nextjs",
+        "Postman",
+        "Prisma",
+        "React",
+        "ShadcnUi",
+        "Supabase",
+        "TailwindCSS",
+        "TypeScript",
+        "Vercel",
+        "Vite",
+        "Vitest"
       ],
       "repositories": {
         "front": {
@@ -43,17 +43,17 @@
       "name": "Quickbet",
       "description": "Project that consumes the TMDB API to show, filter and search for movies, as well as save them to a favorites list with user registration.",
       "technologies": [
-        "TypeScript",
-        "React",
-        "Nextjs",
+        "Azure",
         "CSS",
-        "Vite",
-        "Postman",
-        "Nestjs",
         "Git",
         "GitHub",
-        "Azure",
-        "Vercel"
+        "Nestjs",
+        "Nextjs",
+        "Postman",
+        "React",
+        "TypeScript",
+        "Vercel",
+        "Vite"
       ],
       "repositories": {
         "front": {
@@ -74,16 +74,16 @@
       "name": "Pokedex",
       "description": "Project that consumes the Pokemon API to show the pokemons and save them to a favorites list.",
       "technologies": [
-        "TypeScript",
-        "React",
-        "CSS",
-        "Vite",
-        "ReactRouter",
-        "GraphQL",
         "Apollo",
+        "CSS",
         "Git",
         "GitHub",
-        "GitHubPages"
+        "GitHubPages",
+        "GraphQL",
+        "React",
+        "ReactRouter",
+        "TypeScript",
+        "Vite"
       ],
       "repositories": {
         "front": {
@@ -104,18 +104,18 @@
       "name": "Your Music",
       "description": "Project that consumes the Spotify API to show an artist's songs and save them to a favorites list.",
       "technologies": [
-        "JavaScript",
-        "React",
-        "SASS",
-        "Vite",
         "Framer",
-        "ReactHookForm",
-        "ReactRouter",
-        "Vitest",
-        "Postman",
         "Git",
         "GitHub",
-        "GitHubPages"
+        "GitHubPages",
+        "JavaScript",
+        "Postman",
+        "React",
+        "ReactHookForm",
+        "ReactRouter",
+        "SASS",
+        "Vite",
+        "Vitest"
       ],
       "repositories": {
         "front": {
@@ -136,15 +136,19 @@
       "name": "My Search",
       "description": "Simple project that allows you to search for a client by their identity card. You can see the detail of each client.",
       "technologies": [
-        "TypeScript",
         "Angular",
-        "CSS",
         "Bootstrap",
-        "Karma",
-        "MSW",
+        "CSS",
         "Git",
         "GitHub",
-        "GitHubPages"
+        "GitHubPages",
+        "Java",
+        "Karma",
+        "MSW",
+        "Maven",
+        "SpringBoot",
+        "Swagger",
+        "TypeScript"
       ],
       "repositories": {
         "front": {
@@ -158,21 +162,21 @@
       },
       "website": {
         "url": "https://kalevins.github.io/my-search/",
-        "show": true
+        "show": false
       }
     },
     {
       "name": "Crypto AES",
       "description": "Web project that allows encrypting and decrypting messages using the AES algorithm",
       "technologies": [
-        "JavaScript",
-        "React",
-        "Nodejs",
         "CSS",
-        "Vite",
         "Git",
         "GitHub",
-        "GitHubPages"
+        "GitHubPages",
+        "JavaScript",
+        "Nodejs",
+        "React",
+        "Vite"
       ],
       "repositories": {
         "front": {
@@ -193,12 +197,12 @@
       "name": "Game Search",
       "description": "Project that consumes the Twich API to search for video games with Ajax.",
       "technologies": [
-        "JavaScript",
-        "React",
-        "SASS",
-        "MaterialUi",
         "Git",
-        "GitHub"
+        "GitHub",
+        "JavaScript",
+        "MaterialUi",
+        "React",
+        "SASS"
       ],
       "repositories": {
         "front": {
@@ -219,10 +223,10 @@
       "name": "Invisibility Cloak",
       "description": "Program to simulate the invisibility cloak from Harry Potter fiction movies.",
       "technologies": [
-        "Python",
-        "OpenCV",
         "Git",
-        "GitHub"
+        "GitHub",
+        "OpenCV",
+        "Python"
       ],
       "repositories": {
         "front": {
@@ -243,10 +247,10 @@
       "name": "School Security",
       "description": "Intelligent surveillance system using smart security cameras for schools.",
       "technologies": [
-        "Python",
-        "OpenCV",
         "Git",
-        "GitHub"
+        "GitHub",
+        "OpenCV",
+        "Python"
       ],
       "repositories": {
         "front": {
@@ -291,12 +295,12 @@
       "name": "Congestion Control Algorithm",
       "description": "5G network slice congestion control algorithm project.",
       "technologies": [
-        "Python",
+        "Docker",
         "Git",
         "GitHub",
-        "Docker",
         "Kubernetes",
-        "Nginx"
+        "Nginx",
+        "Python"
       ],
       "repositories": {
         "front": {
@@ -317,15 +321,15 @@
       "name": "Portfolio",
       "description": "This portfolio",
       "technologies": [
-        "TypeScript",
-        "React",
         "CSS",
-        "Vite",
         "Framer",
-        "I18next",
         "Git",
         "GitHub",
-        "GitHubPages"
+        "GitHubPages",
+        "I18next",
+        "React",
+        "TypeScript",
+        "Vite"
       ],
       "repositories": {
         "front": {
