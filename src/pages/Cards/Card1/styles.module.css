@@ -30,4 +30,12 @@
     height: 2px;
     background-color: var(--color-primary);
   }
+
+  @media screen and (width <= 640px) {
+    .textContainer {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
 }
