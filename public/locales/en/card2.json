@@ -7,6 +7,10 @@
       "position": "Full Stack Developer",
       "dateInit": "2021-08",
       "dateEnd": "2021-10",
+      "website": {
+        "url": "https://www.lamusitekadeabner.com/",
+        "show": true
+      },
       "description": [
         "Develop an independent website to provide an online radio service."
       ],
@@ -23,6 +27,10 @@
       "position": "Full Stack Developer",
       "dateInit": "2022-02",
       "dateEnd": "2023-07",
+      "website": {
+        "url": "https://www.eolsolutions.com.co/",
+        "show": true
+      },
       "description": [
         "Develop and support an Ecommerce.",
         "Support and implement new requirements for websites."
@@ -55,6 +63,10 @@
       "position": "Front End Developer",
       "dateInit": "2023-08",
       "dateEnd": "2023-09",
+      "website": {
+        "url": "https://bpolabsolutions.com/",
+        "show": true
+      },
       "description": [
         "Develop modules for a Dashboard implementing a Hexagonal architecture."
       ],
@@ -78,6 +90,10 @@
       "position": "Front End Developer",
       "dateInit": "2023-10",
       "dateEnd": "2023-12",
+      "website": {
+        "url": "https://www.valcredit.co/",
+        "show": true
+      },
       "description": [
         "Develop a website for financial control and management."
       ],
@@ -101,6 +117,10 @@
       "position": "Senior Front End Developer",
       "dateInit": "2021-10",
       "dateEnd": "",
+      "website": {
+        "url": "https://www.teleperformance.com/",
+        "show": true
+      },
       "description": [
         "Develop an internal corporate educational system for client training with the company's courses.",
         "Develop a Content Management System (CMS) with Dashboard, Forecast, and Apps modules.",

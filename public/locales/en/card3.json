@@ -25,10 +25,19 @@
         "Vercel"
       ],
       "repositories": {
-        "front": "https://github.com/Kalevins/gest-fin",
-        "back": ""
+        "front": {
+          "url": "https://github.com/Kalevins/gest-fin",
+          "show": true
+        },
+        "back": {
+          "url": "",
+          "show": false
+        }
       },
-      "url": "https://gest-fin.vercel.app/"
+      "website": {
+        "url": "https://gest-fin.vercel.app/",
+        "show": true
+      }
     },
     {
       "name": "Quickbet",
@@ -47,10 +56,19 @@
         "Vercel"
       ],
       "repositories": {
-        "front": "https://github.com/Kalevins/quickbet",
-        "back": "https://github.com/Kalevins/quickbet-backend"
+        "front": {
+          "url": "https://github.com/Kalevins/quickbet",
+          "show": true
+        },
+        "back": {
+          "url": "https://github.com/Kalevins/quickbet-backend",
+          "show": true
+        }
       },
-      "url": "https://quickbet.vercel.app/"
+      "website": {
+        "url": "https://quickbet.vercel.app/",
+        "show": true
+      }
     },
     {
       "name": "Pokedex",
@@ -68,10 +86,19 @@
         "GitHubPages"
       ],
       "repositories": {
-        "front": "https://github.com/Kalevins/pokedex",
-        "back": ""
+        "front": {
+          "url": "https://github.com/Kalevins/pokedex",
+          "show": true
+        },
+        "back": {
+          "url": "",
+          "show": false
+        }
       },
-      "url": "https://kalevins.github.io/pokedex/"
+      "website": {
+        "url": "https://kalevins.github.io/pokedex/",
+        "show": true
+      }
     },
     {
       "name": "Your Music",
@@ -91,10 +118,19 @@
         "GitHubPages"
       ],
       "repositories": {
-        "front": "https://github.com/Kalevins/your-music",
-        "back": ""
+        "front": {
+          "url": "https://github.com/Kalevins/your-music",
+          "show": true
+        },
+        "back": {
+          "url": "",
+          "show": false
+        }
       },
-      "url": "https://kalevins.github.io/your-music/"
+      "website": {
+        "url": "https://kalevins.github.io/your-music/",
+        "show": true
+      }
     },
     {
       "name": "My Search",
@@ -111,10 +147,19 @@
         "GitHubPages"
       ],
       "repositories": {
-        "front": "https://github.com/Kalevins/my-search",
-        "back": ""
+        "front": {
+          "url": "https://github.com/Kalevins/my-search",
+          "show": true
+        },
+        "back": {
+          "url": "https://github.com/Kalevins/my-search-backend",
+          "show": true
+        }
       },
-      "url": "https://kalevins.github.io/my-search/"
+      "website": {
+        "url": "https://kalevins.github.io/my-search/",
+        "show": true
+      }
     },
     {
       "name": "Crypto AES",
@@ -130,10 +175,19 @@
         "GitHubPages"
       ],
       "repositories": {
-        "front": "https://github.com/Kalevins/crypto-aes",
-        "back": ""
+        "front": {
+          "url": "https://github.com/Kalevins/crypto-aes",
+          "show": true
+        },
+        "back": {
+          "url": "",
+          "show": false
+        }
       },
-      "url": "https://kalevins.github.io/crypto-aes/"
+      "website": {
+        "url": "https://kalevins.github.io/crypto-aes/",
+        "show": false
+      }
     },
     {
       "name": "Game Search",
@@ -147,10 +201,19 @@
         "GitHub"
       ],
       "repositories": {
-        "front": "https://github.com/Kalevins/game-search",
-        "back": ""
+        "front": {
+          "url": "https://github.com/Kalevins/game-search",
+          "show": true
+        },
+        "back": {
+          "url": "",
+          "show": false
+        }
       },
-      "url": ""
+      "website": {
+        "url": "https://kalevins.github.io/game-search/",
+        "show": false
+      }
     },
     {
       "name": "Invisibility Cloak",
@@ -162,10 +225,19 @@
         "GitHub"
       ],
       "repositories": {
-        "front": "https://github.com/Kalevins/invisibility-cloak",
-        "back": ""
+        "front": {
+          "url": "https://github.com/Kalevins/invisibility-cloak",
+          "show": true
+        },
+        "back": {
+          "url": "",
+          "show": false
+        }
       },
-      "url": ""
+      "website": {
+        "url": "",
+        "show": false
+      }
     },
     {
       "name": "School Security",
@@ -177,10 +249,19 @@
         "GitHub"
       ],
       "repositories": {
-        "front": "https://github.com/Kalevins/school-security",
-        "back": ""
+        "front": {
+          "url": "https://github.com/Kalevins/school-security",
+          "show": true
+        },
+        "back": {
+          "url": "",
+          "show": false
+        }
       },
-      "url": ""
+      "website": {
+        "url": "",
+        "show": false
+      }
     },
     {
       "name": "Vehicle Count",
@@ -192,10 +273,19 @@
         "GitHub"
       ],
       "repositories": {
-        "front": "https://github.com/Kalevins/vehicle-count",
-        "back": ""
+        "front": {
+          "url": "https://github.com/Kalevins/vehicle-count",
+          "show": true
+        },
+        "back": {
+          "url": "",
+          "show": false
+        }
       },
-      "url": ""
+      "website": {
+        "url": "",
+        "show": false
+      }
     },
     {
       "name": "Congestion Control Algorithm",
@@ -209,10 +299,19 @@
         "Nginx"
       ],
       "repositories": {
-        "front": "https://github.com/Kalevins/congestion-control-drl-algorithm",
-        "back": ""
+        "front": {
+          "url": "https://github.com/Kalevins/congestion-control-drl-algorithm",
+          "show": true
+        },
+        "back": {
+          "url": "",
+          "show": false
+        }
       },
-      "url": ""
+      "website": {
+        "url": "",
+        "show": false
+      }
     },
     {
       "name": "Portfolio",
@@ -229,10 +328,19 @@
         "GitHubPages"
       ],
       "repositories": {
-        "front": "https://github.com/Kalevins/portafolio",
-        "back": ""
+        "front": {
+          "url": "https://github.com/Kalevins/portafolio",
+          "show": true
+        },
+        "back": {
+          "url": "",
+          "show": false
+        }
       },
-      "url": "https://kalevin.dev/"
+      "website": {
+        "url": "https://kalevin.dev/",
+        "show": true
+      }
      }
   ]
 }

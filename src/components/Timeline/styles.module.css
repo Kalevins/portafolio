@@ -76,24 +76,47 @@
       cursor: pointer;
       background-color: var(--color-black-opacity);
       transition: background-color 0.5s, color 0.5s;
+      display: grid;
+      grid-template-columns: 1fr auto;
 
       &#active {
         background-color: var(--color-primary-opacity);
         color: var(--color-black);
       }
 
-      > p {
-        text-transform: capitalize;
+      .texts {
+        > p {
+          text-transform: capitalize;
+        }
       }
 
-      .descriptionContainer {
-        max-width: 0;
-        height: 0;
-        overflow: hidden;
+      .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-        &.active {
-          max-width: 100%;
-          transition: max-width 0.5s;
+        a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 40px;
+          height: 40px;
+          border: 2px solid var(--color-white);
+          border-radius: 50%;
+          color: var(--color-white);
+          transition: background-color 0.5s, color 0.5s;
+          box-sizing: border-box;
+          cursor: pointer;
+
+          > svg {
+            width: 20px;
+            height: 20px;
+          }
+
+          &:hover {
+            background-color: var(--color-white);
+            color: var(--color-black);
+          }
         }
       }
     }

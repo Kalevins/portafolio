@@ -17,6 +17,10 @@ export const Card2 = (): ReactElement => {
     company: "",
     dateInit: "",
     dateEnd: "",
+    website: {
+      url: "",
+      show: false
+    },
     description: [],
     technologies: [],
     level: 0

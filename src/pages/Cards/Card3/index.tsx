@@ -40,9 +40,9 @@ export const Card3 = (): ReactElement => {
               }
             </div>
             <div className={styles.links}>
-              {project?.repositories?.front && <a href={project.repositories.front} target="_blank" rel="noreferrer"><GrommetIconsGithub/></a>}
-              {project?.repositories?.back && <a href={project.repositories.back} target="_blank" rel="noreferrer"><GrommetIconsGithub/></a>}
-              {project?.url && <a href={project.url} target="_blank" rel="noreferrer"><MaterialSymbolsWebAsset/></a>}
+              {project?.repositories?.front?.show && project?.repositories?.front?.url && <a href={project.repositories.front.url} target="_blank" rel="noreferrer"><GrommetIconsGithub/></a>}
+              {project?.repositories?.back?.show && project?.repositories?.front?.url && <a href={project.repositories.back.url} target="_blank" rel="noreferrer"><GrommetIconsGithub/></a>}
+              {project?.website?.show && project?.website?.url && <a href={project.website.url} target="_blank" rel="noreferrer"><MaterialSymbolsWebAsset/></a>}
             </div>
           </div>
         ))}

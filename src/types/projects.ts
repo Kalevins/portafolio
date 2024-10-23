@@ -1,6 +1,11 @@
+export interface Link {
+  url: string;
+  show: boolean;
+}
+
 export interface Repositories {
-  front: string;
-  back: string;
+  front: Link;
+  back: Link;
 }
 
 export interface Project {
@@ -8,7 +13,7 @@ export interface Project {
   description: string;
   technologies: string[];
   repositories: Repositories;
-  url: string;
+  website: Link;
 }
 
 export type Projects = Project[];
