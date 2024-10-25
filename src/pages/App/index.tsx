@@ -42,7 +42,7 @@ export const App = (): ReactElement => {
   return (
     <main className={styles.main}>
       <Header />
-      <Cards ref={ref}>
+      <Cards innerRef={ref}>
         <Card1 />
         <Card2 />
         <Card3 />
