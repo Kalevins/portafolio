@@ -10,7 +10,7 @@ import { Card1, Card2, Card3, Card4 } from '@/pages'
 import styles from './styles.module.css'
 
 export const App = (): ReactElement => {
-  const ref = useRef<HTMLDivElement | null>(null);
+  const ref = useRef<HTMLDivElement>(null);
   const [cards, setCards] = useState<number>(0);
   const { scrollYProgress } = useScroll({ container: ref });
   const { selected } = useContext(MenuContext);
@@ -42,7 +42,7 @@ export const App = (): ReactElement => {
   return (
     <main className={styles.main}>
       <Header />
-      <Cards innerRef={ref}>
+      <Cards ref={ref}>
         <Card1 />
         <Card2 />
         <Card3 />

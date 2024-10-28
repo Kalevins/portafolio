@@ -1,8 +1,8 @@
 import { useRef, useState } from 'react';
 import type { ReactElement } from 'react';
+import { useMotionValueEvent } from 'framer-motion';
 
 import styles from './styles.module.css';
-import { useMotionValueEvent } from 'framer-motion';
 
 import { Props } from './types';
 

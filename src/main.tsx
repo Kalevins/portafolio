@@ -12,10 +12,10 @@ const root = createRoot(document.getElementById('root')!)
 
 root.render(
   <StrictMode>
-    <MenuProvider>
-      <Suspense fallback={<LoadingScreen/>}>
+    <Suspense fallback={<LoadingScreen/>}>
+      <MenuProvider>
         <App />
-      </Suspense>
-    </MenuProvider>
+      </MenuProvider>
+    </Suspense>
   </StrictMode>,
 )

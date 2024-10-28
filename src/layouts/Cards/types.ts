@@ -1,6 +1,5 @@
-import { MutableRefObject, ReactNode } from 'react'
+import { ReactNode } from 'react'
 
 export interface Props {
-  children: ReactNode,
-  innerRef: MutableRefObject<HTMLDivElement | null>
+  children: ReactNode
 }

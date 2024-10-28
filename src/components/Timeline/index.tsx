@@ -20,7 +20,7 @@ export const Timeline = ({ experiences, handleExperienceActive }: Props): ReactE
     <div className={styles.timeline}>
       {experiences.map((experience, index) => (
         <div key={index} className={styles.experienceContainer}>
-          <div className={`${styles.line} ${styles[`level${experience.level}`]}`} id={experiences[index - 1]?.level !== experience.level ? styles.first : experiences[index + 1].level !== experience.level ? styles.last : ''}/>
+          <div className={`${styles.line} ${styles[`level${experience.level}`]}`} id={experiences[index - 1]?.level !== experience.level ? styles.first : experiences[index + 1]?.level !== experience.level ? styles.last : ''}/>
           <div
             className={styles.experience}
             id={isActive === index ? styles.active : ''}
