@@ -14,13 +14,7 @@
       "description": [
         "Desarrollar página web independiente para proporcionar un servicio de radio en línea."
       ],
-      "technologies": [
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "Git",
-        "GitHub"
-      ]
+      "technologies": ["JavaScript", "HTML", "CSS", "Git", "GitHub"]
     },
     {
       "company": "EOL Solutions SAS",
@@ -32,8 +26,8 @@
         "show": true
       },
       "description": [
-        "Desarrollar y soportar un Ecommerce.",
-        "Soportar e implementar nuevos requisitos para páginas web."
+        "Liderar el desarrollo y escalamiento de una plataforma de Ecommerce, integrando soluciones de Frontend y Backend.",
+        "Colaborar en la definición de UX/UI junto al equipo de diseño, traduciendo requisitos complejos en componentes técnicos funcionales y responsivos."
       ],
       "technologies": [
         "JavaScript",
@@ -68,7 +62,7 @@
         "show": true
       },
       "description": [
-        "Desarrollar módulos para un Dashboard implementando una arquitectura Hexagonal"
+        "Implementar módulos de Dashboard bajo Arquitectura Hexagonal, garantizando el desacoplamiento de la lógica de negocio y facilitando la testabilidad del sistema."
       ],
       "technologies": [
         "TypeScript",
@@ -95,7 +89,7 @@
         "show": true
       },
       "description": [
-        "Desarrollar página web para el control y gestión de finanzas."
+        "Desarrollar una solución integral para el control y gestión de finanzas, priorizando la seguridad en el manejo de datos sensibles y la claridad en la visualización de datos."
       ],
       "technologies": [
         "JavaScript",
@@ -116,18 +110,18 @@
       "company": "Teleperformance",
       "position": "Desarrollador Front End Senior",
       "dateInit": "2021-10",
-      "dateEnd": "",
+      "dateEnd": "2024-12",
       "website": {
         "url": "https://www.teleperformance.com/",
         "show": true
       },
       "description": [
-        "Desarrollar sistema educativo interno empresarial para la capacitación de clientes con los cursos de la compañía.",
-        "Desarrollar Sistema de Gestión de Contenidos (CMS) con los módulos Dashboard, Forecast y Apps.",
-        "Desarrollar sistemas de emulación de aplicaciones que permiten la apropiación y fácil uso en un entorno no productivo.",
-        "Desarrollar aplicaciones de gestión de archivos, permisos y seguimiento.",
-        "Solucionar y adaptar aplicaciones referentes a QA y errores de seguridad.",
-        "Soportar páginas web."
+        "Diseñar y arquitectar un asistente interactivo impulsado por IA integrado en los aplicativos internos, actuando como guía inteligente para optimizar la curva de aprendizaje y la navegación de los usuarios.",
+        "Liderar el desarrollo de sistemas críticos de capacitación empresarial, optimizando la experiencia de aprendizaje para clientes globales mediante interfaces de alto rendimiento.",
+        "Arquitectar y desplegar un CMS modular (Dashboard, Forecast y Apps), permitiendo una gestión de contenidos centralizada y eficiente con visualización de datos compleja.",
+        "Desarrollar entornos de simulación de alta fidelidad para aplicaciones en entornos no productivos, facilitando el onboarding y la apropiación tecnológica sin riesgos operativos.",
+        "Garantizar la integridad y seguridad del código mediante la implementación de auditorías de seguridad, resolviendo vulnerabilidades críticas y elevando los estándares de QA.",
+        "Gestionar el ciclo de vida de aplicaciones de gestión de archivos y permisos, asegurando una trazabilidad robusta y un control de acceso granular."
       ],
       "technologies": [
         "JavaScript",
@@ -153,6 +147,49 @@
         "GitHub",
         "Bitbucket",
         "Azure"
+      ]
+    },
+    {
+      "company": "Mercado Libre",
+      "position": "Ingeniero de Software",
+      "dateInit": "2025-01",
+      "dateEnd": "",
+      "website": {
+        "url": "https://www.mercadolibre.com/",
+        "show": true
+      },
+      "description": [
+        "Liderar la definición técnica de iniciativas de gran escala mediante la redacción de RFCs, coordinando el consenso entre equipos de Producto, UX y Backend para garantizar arquitecturas sólidas y escalables.",
+        "Diseñar y mantener aplicaciones web modulares y escalables en entornos de alto tráfico, optimizando Web Vitals y métricas de performance para asegurar experiencias de usuario rápidas y confiables.",
+        "Crear, disponibilizar y mantener infraestructura y ambientes de despliegue (IaC), asegurando la correcta configuración y disponibilidad de los entornos de las aplicaciones.",
+        "Gestionar repositorios críticos de enrutamiento y manejo de tráfico, asegurando una navegación fluida y una distribución de carga eficiente en el ecosistema frontend.",
+        "Liderar la implementación de estrategias de testing automatizado E2E impulsadas por IA, elevando los estándares de calidad y reduciendo significativamente los tiempos de regresión.",
+        "Diseñar e implementar arquitecturas de tracking y medición de datos, garantizando la trazabilidad de eventos de negocio para la toma de decisiones informadas.",
+        "Impulsar la cultura de excelencia técnica a través de code reviews y estrategias de observabilidad, garantizando la resiliencia del código y la detección temprana de errores en producción.",
+        "Investigar, documentar y mitigar vulnerabilidades de seguridad, asegurando que las aplicaciones cumplan con los más altos estándares de protección y protección de datos.",
+        "Publicar y mantener librerías y módulos compartidos, facilitando la reutilización de código y la consistencia técnica entre los diferentes equipos de la organización."
+      ],
+      "technologies": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "HTML",
+        "CSS",
+        "SASS",
+        "Webpack",
+        "SSR",
+        "Postman",
+        "Git",
+        "GitHub",
+        "AWS",
+        "GoogleCloud",
+        "Azure",
+        "Jest",
+        "Cucumber",
+        "Nginx",
+        "Cursor",
+        "Claude",
+        "Figma"
       ]
     }
   ]

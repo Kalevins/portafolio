@@ -1,4 +1,4 @@
-@import '@/styles/buttons.css';
+@import "@/styles/buttons.css";
 
 .header {
   position: absolute;
@@ -122,12 +122,19 @@
           > h3 {
             color: var(--color-black);
 
-            &:hover, &.selected {
+            &:hover,
+            &.selected {
               color: var(--color-primary);
             }
           }
         }
       }
+    }
+  }
+
+  @media screen and (width <= 768px) {
+    .social {
+      visibility: hidden;
     }
   }
 }

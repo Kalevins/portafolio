@@ -60,316 +60,352 @@ import {
   SimpleIconsZap,
   VscodeIconsFileTypeDoxygen,
   VscodeIconsFileTypeStyled,
-} from "@/assets/icons"
-import { Technologies } from "@/types"
+  LogosClaude,
+  LogosCucumber,
+  LogosCursor,
+  LogosGoogleCloud,
+  LogosSSRIcon,
+  LogosWebpack,
+} from "@/assets/icons";
+import { Technologies } from "@/types";
 
 export const technologies: Technologies = {
   Angular: {
     name: "Angular",
     url: "https://angular.io/",
-    icon: LogosAngularIcon
+    icon: LogosAngularIcon,
   },
   Apollo: {
     name: "Apollo",
     url: "https://www.apollographql.com/",
-    icon: LogosApollostack
+    icon: LogosApollostack,
   },
   Auth0: {
     name: "Auth0",
     url: "https://auth0.com/",
-    icon: LogosAuth0Icon
+    icon: LogosAuth0Icon,
   },
   AWS: {
     name: "AWS",
     url: "https://aws.amazon.com/",
-    icon: LogosAws
+    icon: LogosAws,
   },
   Azure: {
     name: "Microsoft Azure",
     url: "https://azure.microsoft.com/",
-    icon: LogosMicrosoftAzure
+    icon: LogosMicrosoftAzure,
   },
   Bitbucket: {
     name: "Bitbucket",
     url: "https://bitbucket.org/",
-    icon: LogosBitbucket
+    icon: LogosBitbucket,
   },
   Bootstrap: {
     name: "Bootstrap",
     url: "https://getbootstrap.com/",
-    icon: LogosBootstrap
+    icon: LogosBootstrap,
   },
   ChartJS: {
     name: "Chart.js",
     url: "https://www.chartjs.org/",
-    icon: LogosChartjs
+    icon: LogosChartjs,
+  },
+  Claude: {
+    name: "Claude",
+    url: "https://claude.ai/",
+    icon: LogosClaude,
   },
   Cplusplus: {
     name: "C++",
     url: "https://isocpp.org/",
-    icon: LogosCPlusplus
+    icon: LogosCPlusplus,
   },
   CSS: {
     name: "CSS",
     url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-    icon: LogosCss3
+    icon: LogosCss3,
+  },
+  Cucumber: {
+    name: "Cucumber",
+    url: "https://cucumber.io/",
+    icon: LogosCucumber,
+  },
+  Cursor: {
+    name: "Cursor",
+    url: "https://www.cursor.com/",
+    icon: LogosCursor,
   },
   Docker: {
     name: "Docker",
     url: "https://www.docker.com/",
-    icon: LogosDockerIcon
+    icon: LogosDockerIcon,
   },
   Doxygen: {
     name: "Doxygen",
     url: "https://www.doxygen.nl/index.html",
-    icon: VscodeIconsFileTypeDoxygen
+    icon: VscodeIconsFileTypeDoxygen,
   },
   Express: {
     name: "Express",
     url: "https://expressjs.com/",
-    icon: LogosExpress
+    icon: LogosExpress,
   },
   Figma: {
     name: "Figma",
     url: "https://www.figma.com/",
-    icon: LogosFigma
+    icon: LogosFigma,
   },
   Firebase: {
     name: "Firebase",
     url: "https://firebase.google.com/",
-    icon: LogosFirebase
+    icon: LogosFirebase,
   },
   Framer: {
     name: "Framer Motion",
     url: "https://www.framer.com/",
-    icon: LogosFramer
+    icon: LogosFramer,
   },
   Git: {
     name: "Git",
     url: "https://git-scm.com/",
-    icon: LogosGitIcon
+    icon: LogosGitIcon,
   },
   GitHub: {
     name: "GitHub",
     url: "https://github.com/",
-    icon: LogosGithubIcon
+    icon: LogosGithubIcon,
   },
   GitHubCopilot: {
     name: "GitHub Copilot",
     url: "https://copilot.github.com/",
-    icon: LogosGithubCopilot
+    icon: LogosGithubCopilot,
   },
   GitHubPages: {
     name: "GitHub Pages",
     url: "https://pages.github.com/",
-    icon: LogosGithubOctocat
+    icon: LogosGithubOctocat,
+  },
+  GoogleCloud: {
+    name: "Google Cloud",
+    url: "https://cloud.google.com/",
+    icon: LogosGoogleCloud,
   },
   GraphQL: {
     name: "GraphQL",
     url: "https://graphql.org/",
-    icon: LogosGraphql
+    icon: LogosGraphql,
   },
   HTML: {
     name: "HTML",
     url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
-    icon: LogosHtml5
+    icon: LogosHtml5,
   },
   Java: {
     name: "Java",
     url: "https://dev.java/",
-    icon: LogosJava
+    icon: LogosJava,
   },
   I18next: {
     name: "i18next",
     url: "https://www.i18next.com/",
-    icon: SimpleIconsI18next
+    icon: SimpleIconsI18next,
   },
   JavaScript: {
     name: "Java Script",
     url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-    icon: LogosJavascript
+    icon: LogosJavascript,
   },
   Jest: {
     name: "Jest",
     url: "https://jestjs.io/",
-    icon: LogosJest
+    icon: LogosJest,
   },
   Karma: {
     name: "Karma",
     url: "https://karma-runner.github.io/",
-    icon: LogosKarma
+    icon: LogosKarma,
   },
   Kubernetes: {
     name: "Kubernetes",
     url: "https://kubernetes.io/",
-    icon: LogosKubernetes
+    icon: LogosKubernetes,
   },
   Linux: {
     name: "Linux",
     url: "https://www.linux.org/",
-    icon: LogosLinuxTux
+    icon: LogosLinuxTux,
   },
   MaterialUi: {
     name: "Material UI",
     url: "https://material-ui.com/",
-    icon: LogosMaterialUi
+    icon: LogosMaterialUi,
   },
   Maven: {
     name: "Maven",
     url: "https://maven.apache.org/",
-    icon: LogosMaven
+    icon: LogosMaven,
   },
   MSW: {
     name: "MSW",
     url: "https://mswjs.io/",
-    icon: LogosMswIcon
+    icon: LogosMswIcon,
   },
   Nestjs: {
     name: "Nest.js",
     url: "https://nestjs.com/",
-    icon: LogosNestjs
+    icon: LogosNestjs,
   },
   Nextjs: {
     name: "Next.js",
     url: "https://nextjs.org/",
-    icon: LogosNextjsIcon
+    icon: LogosNextjsIcon,
   },
   Nginx: {
     name: "Nginx",
     url: "https://www.nginx.com/",
-    icon: LogosNginx
+    icon: LogosNginx,
   },
   Nodejs: {
     name: "Node.js",
     url: "https://nodejs.org/",
-    icon: LogosNodejsIconAlt
+    icon: LogosNodejsIconAlt,
   },
   Npm: {
     name: "NPM",
     url: "https://www.npmjs.com/",
-    icon: LogosNpmIcon
+    icon: LogosNpmIcon,
   },
   Pnpm: {
     name: "PNPM",
     url: "https://pnpm.io/",
-    icon: LogosPnpm
+    icon: LogosPnpm,
   },
   OpenCV: {
     name: "OpenCV",
     url: "https://opencv.org/",
-    icon: LogosOpencv
+    icon: LogosOpencv,
   },
   OWASPZAP: {
     name: "OWASP ZAP",
     url: "https://www.zaproxy.org/",
-    icon: SimpleIconsZap
+    icon: SimpleIconsZap,
   },
   Postman: {
     name: "Postman",
     url: "https://www.postman.com/",
-    icon: LogosPostmanIcon
+    icon: LogosPostmanIcon,
   },
   Prisma: {
     name: "Prisma",
     url: "https://www.prisma.io/",
-    icon: LogosPrisma
+    icon: LogosPrisma,
   },
   Python: {
     name: "Python",
     url: "https://www.python.org/",
-    icon: LogosPython
+    icon: LogosPython,
   },
   React: {
     name: "React",
     url: "https://reactjs.org/",
-    icon: LogosReact
+    icon: LogosReact,
   },
   ReactHookForm: {
     name: "React Hook Form",
     url: "https://react-hook-form.com/",
-    icon: SimpleIconsReacthookform
+    icon: SimpleIconsReacthookform,
   },
   ReactRouter: {
     name: "React Router",
     url: "https://reactrouter.com/",
-    icon: LogosReactRouter
+    icon: LogosReactRouter,
   },
   Redux: {
     name: "Redux",
     url: "https://redux.js.org/",
-    icon: LogosRedux
+    icon: LogosRedux,
   },
   SASS: {
     name: "SASS",
     url: "https://sass-lang.com/",
-    icon: LogosSass
+    icon: LogosSass,
   },
   ShadcnUi: {
     name: "Shadcn UI",
     url: "https://ui.shadcn.com/",
-    icon: SimpleIconsShadcnui
+    icon: SimpleIconsShadcnui,
   },
   SonarQube: {
     name: "Sonar Qube",
     url: "https://www.sonarqube.org/",
-    icon: LogosSonarqube
+    icon: LogosSonarqube,
   },
   SpringBoot: {
     name: "Spring Boot",
     url: "https://spring.io/projects/spring-boot",
-    icon: LogosSpringIcon
+    icon: LogosSpringIcon,
+  },
+  SSR: {
+    name: "Server Side Rendering",
+    url: "https://developer.mozilla.org/en-US/docs/Glossary/SSR",
+    icon: LogosSSRIcon,
   },
   StyledComponents: {
     name: "Styled Components",
     url: "https://styled-components.com/",
-    icon: VscodeIconsFileTypeStyled
+    icon: VscodeIconsFileTypeStyled,
   },
   Supabase: {
     name: "Supabase",
     url: "https://supabase.io/",
-    icon: LogosSupabaseIcon
+    icon: LogosSupabaseIcon,
   },
   Swagger: {
     name: "Swagger",
     url: "https://swagger.io/",
-    icon: LogosSwagger
+    icon: LogosSwagger,
   },
   TailwindCSS: {
     name: "Tailwind CSS",
     url: "https://tailwindcss.com/",
-    icon: LogosTailwindcssIcon
+    icon: LogosTailwindcssIcon,
   },
   TypeScript: {
     name: "Type Script",
     url: "https://www.typescriptlang.org/",
-    icon: LogosTypescriptIcon
+    icon: LogosTypescriptIcon,
   },
   Vercel: {
     name: "Vercel",
     url: "https://vercel.com/",
-    icon: LogosVercelIcon
+    icon: LogosVercelIcon,
   },
   Vitest: {
     name: "Vitest",
     url: "https://vitest.dev/",
-    icon: LogosVitest
+    icon: LogosVitest,
   },
   Vite: {
     name: "Vite",
     url: "https://vitejs.dev/",
-    icon: LogosVitejs
+    icon: LogosVitejs,
+  },
+  Webpack: {
+    name: "Webpack",
+    url: "https://webpack.js.org/",
+    icon: LogosWebpack,
   },
   Windows: {
     name: "Windows",
     url: "https://www.microsoft.com/en-us/windows",
-    icon: LogosMicrosoftWindowsIcon
+    icon: LogosMicrosoftWindowsIcon,
   },
   Zustand: {
     name: "Zustand",
     url: "https://zustand.surge.sh/",
-    icon: LogosZustand
-  }
-}
+    icon: LogosZustand,
+  },
+};
 
 export const technologiesOrder = [
   // Languages
@@ -395,7 +431,9 @@ export const technologiesOrder = [
   "MaterialUi",
   "Bootstrap",
   "ShadcnUi",
+  "SSR",
   // Libraries
+  "Webpack",
   "Vite",
   "Redux",
   "Zustand",
@@ -412,6 +450,7 @@ export const technologiesOrder = [
   "Karma",
   "MSW",
   "Postman",
+  "Cucumber",
   // Backend
   "Firebase",
   "Supabase",
@@ -433,9 +472,12 @@ export const technologiesOrder = [
   "Maven",
   // IA
   "GitHubCopilot",
+  "Cursor",
+  "Claude",
   // Cloud
   "AWS",
   "Azure",
+  "GoogleCloud",
   "Vercel",
   "GitHubPages",
   "Docker",
@@ -446,5 +488,4 @@ export const technologiesOrder = [
   "Linux",
   // Design
   "Figma",
-]
-
+];

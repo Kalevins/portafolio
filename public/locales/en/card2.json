@@ -14,13 +14,7 @@
       "description": [
         "Develop an independent website to provide an online radio service."
       ],
-      "technologies": [
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "Git",
-        "GitHub"
-      ]
+      "technologies": ["JavaScript", "HTML", "CSS", "Git", "GitHub"]
     },
     {
       "company": "EOL Solutions SAS",
@@ -32,8 +26,8 @@
         "show": true
       },
       "description": [
-        "Develop and support an Ecommerce.",
-        "Support and implement new requirements for websites."
+        "Lead the development and scaling of an Ecommerce platform, integrating Frontend and Backend solutions.",
+        "Collaborate on UX/UI definition alongside the design team, translating complex requirements into functional and responsive technical components."
       ],
       "technologies": [
         "JavaScript",
@@ -68,7 +62,7 @@
         "show": true
       },
       "description": [
-        "Develop modules for a Dashboard implementing a Hexagonal architecture."
+        "Implement Dashboard modules using Hexagonal Architecture, ensuring business logic decoupling and facilitating system testability."
       ],
       "technologies": [
         "TypeScript",
@@ -95,7 +89,7 @@
         "show": true
       },
       "description": [
-        "Develop a website for financial control and management."
+        "Develop a comprehensive solution for financial control and management, prioritizing security in handling sensitive data and ensuring clarity in data visualization."
       ],
       "technologies": [
         "JavaScript",
@@ -116,18 +110,18 @@
       "company": "Teleperformance",
       "position": "Senior Front End Developer",
       "dateInit": "2021-10",
-      "dateEnd": "",
+      "dateEnd": "2024-12",
       "website": {
         "url": "https://www.teleperformance.com/",
         "show": true
       },
       "description": [
-        "Develop an internal corporate educational system for client training with the company's courses.",
-        "Develop a Content Management System (CMS) with Dashboard, Forecast, and Apps modules.",
-        "Develop application emulation systems that allow appropriation and easy use in a non-productive environment.",
-        "Develop file management, permissions, and tracking applications.",
-        "Resolve and adapt applications related to QA and security issues.",
-        "Support websites."
+        "Design and architect an AI-driven interactive assistant integrated into internal applications, serving as an intelligent guide to optimize the learning curve and user navigation.",
+        "Lead the development of critical business training systems, optimizing the learning experience for global clients through high-performance interfaces.",
+        "Architect and deploy a modular CMS (Dashboard, Forecast, and Apps), enabling centralized and efficient content management with complex data visualization.",
+        "Develop high-fidelity simulation environments for applications in non-production settings, facilitating onboarding and technology adoption without operational risks.",
+        "Ensure code integrity and security by implementing security audits, resolving critical vulnerabilities, and raising QA standards.",
+        "Manage the lifecycle of file and permission management applications, ensuring robust traceability and granular access control."
       ],
       "technologies": [
         "JavaScript",
@@ -153,6 +147,49 @@
         "GitHub",
         "Bitbucket",
         "Azure"
+      ]
+    },
+    {
+      "company": "Mercado Libre",
+      "position": "Ingeniero de Software",
+      "dateInit": "2025-01",
+      "dateEnd": "",
+      "website": {
+        "url": "https://www.mercadolibre.com/",
+        "show": true
+      },
+      "description": [
+        "Lead the technical definition of large-scale initiatives through the drafting of RFCs, coordinating consensus among Product, UX, and Backend teams to ensure solid and scalable architectures.",
+        "Design and maintain modular and scalable web applications in high-traffic environments, optimizing Web Vitals and performance metrics to ensure fast and reliable user experiences.",
+        "Create, provision, and maintain infrastructure and deployment environments (IaC), ensuring the correct configuration and availability of application environments.",
+        "Manage critical routing and traffic management repositories, ensuring fluid navigation and efficient load distribution across the frontend ecosystem.",
+        "Lead the implementation of AI-driven E2E automated testing strategies, raising quality standards and significantly reducing regression times.",
+        "Design and implement tracking and data measurement architectures, guaranteeing the traceability of business events for informed decision-making.",
+        "Drive a culture of technical excellence through code reviews and observability strategies, ensuring code resilience and early detection of production errors.",
+        "Research, document, and mitigate security vulnerabilities, ensuring applications comply with the highest standards of data protection and security.",
+        "Publish and maintain shared libraries and modules, facilitating code reuse and technical consistency across different organizational teams."
+      ],
+      "technologies": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "HTML",
+        "CSS",
+        "SASS",
+        "Webpack",
+        "SSR",
+        "Postman",
+        "Git",
+        "GitHub",
+        "AWS",
+        "GoolgeCloud",
+        "Azure",
+        "Jest",
+        "Cucumber",
+        "Nginx",
+        "Cursor",
+        "Claude",
+        "Figma"
       ]
     }
   ]
